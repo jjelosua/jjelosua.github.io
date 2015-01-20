@@ -84,6 +84,7 @@ EXTRA_PATH_METADATA = {
     'extra/robots.txt': {'path': 'robots.txt'},
     'extra/.gitignore_prod': {'path': '.gitignore'},
     'extra/custom.css':{'path':'static/custom.css'},
+    'extra/README.md':{'path':'README.md'},
     }
 
 # static paths will be copied without parsing their contents
@@ -92,4 +93,4 @@ STATIC_PATHS = [
     'extra/custom.css',
     'extra/robots.txt',
     'extra/.gitignore_prod',
-    'README.md']
+    'extra/README.md']
