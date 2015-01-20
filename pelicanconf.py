@@ -75,3 +75,16 @@ OPEN_GRAPH_IMAGE = ''
 
 #FAVICON
 FAVICON = 'images/favicon.png'
+
+# path-specific metadata
+EXTRA_PATH_METADATA = {
+    'extra/robots.txt': {'path': 'robots.txt'},
+    'extra/.gitignore_prod': {'path': '.gitignore'},
+    }
+
+# static paths will be copied without parsing their contents
+STATIC_PATHS = [
+    'pictures',
+    'extra/robots.txt',
+    'extra/.gitignore_prod',
+    'README.md']
