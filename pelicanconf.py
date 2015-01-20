@@ -95,3 +95,11 @@ STATIC_PATHS = [
 
 #Pygment config
 PYGMENTS_STYLE = 'autumn'
+
+#Banner config
+BANNER = '/images/banner.jpg'
+BANNER_SUBTITLE = 'Periodic brain dump'
+BANNER_ALL_PAGES = True
+
+#Search config
+#DIRECT_TEMPLATES = ('index', 'categories', 'authors', 'archives', 'search')
