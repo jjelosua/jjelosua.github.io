@@ -97,7 +97,7 @@ STATIC_PATHS = [
 PYGMENTS_STYLE = 'autumn'
 
 #Banner config
-BANNER = '/images/banner.jpg'
+BANNER = 'images/banner.jpg'
 BANNER_SUBTITLE = 'Periodic brain dump'
 BANNER_ALL_PAGES = True
 
