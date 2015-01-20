@@ -76,15 +76,20 @@ OPEN_GRAPH_IMAGE = ''
 #FAVICON
 FAVICON = 'images/favicon.png'
 
+################## Add custom css #########################
+CUSTOM_CSS = 'static/custom.css'
+
 # path-specific metadata
 EXTRA_PATH_METADATA = {
     'extra/robots.txt': {'path': 'robots.txt'},
     'extra/.gitignore_prod': {'path': '.gitignore'},
+    'extra/custom.css':{'path':'static/custom.css'},
     }
 
 # static paths will be copied without parsing their contents
 STATIC_PATHS = [
-    'pictures',
+    'images',
+    'extra/custom.css',
     'extra/robots.txt',
     'extra/.gitignore_prod',
     'README.md']
