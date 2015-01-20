@@ -92,3 +92,6 @@ EXTRA_PATH_METADATA = {
 STATIC_PATHS = [
     'images',
     'extra']
+
+#Pygment config
+PYGMENTS_STYLE = 'autumn'
