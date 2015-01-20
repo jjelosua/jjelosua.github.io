@@ -85,6 +85,7 @@ EXTRA_PATH_METADATA = {
     'extra/.gitignore_prod': {'path': '.gitignore'},
     'extra/custom.css':{'path':'static/custom.css'},
     'extra/README':{'path':'README.md'},
+    'extra/CNAME':{'path':'CNAME'},
     }
 
 # static paths will be copied without parsing their contents
