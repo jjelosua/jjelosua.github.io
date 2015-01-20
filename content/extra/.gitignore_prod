@@ -3,3 +3,4 @@ cache/
 output/
 content/
 *.pyc
+.DS_Store
