@@ -5,3 +5,5 @@ Tags: opennews
 Slug: onboarding
 
 Description of the onboarding event for the 2015 Knight-Mozilla Fellowship
+
+Work in progress...
