@@ -57,9 +57,9 @@ SHOW_ARTICLE_AUTHOR = True
 DISPLAY_RECENT_POSTS_ON_SIDEBAR = True
 
 # About me blurb
-ABOUT_ME = ''' Spanish Telecommunications engineer.<br>
+ABOUT_ME = ''' Spanish telecommunications engineer.<br>
                When I discovered data journalism, I became a data addict &amp; freelance developer.<br>
-               OpenData &amp; Transparency enthusiast.<br>
+               OpenData &amp; transparency enthusiast.<br>
                2015 Knight-Mozilla fellow at <a href="http://www.lanacion.com.ar/" target="_blank">La Nacion</a>
            '''
 AVATAR = '/images/profile.jpg'
@@ -103,3 +103,6 @@ BANNER_ALL_PAGES = True
 
 #Search config
 #DIRECT_TEMPLATES = ('index', 'categories', 'authors', 'archives', 'search')
+
+#Summary length derived from article content
+SUMMARY_MAX_LENGTH = 100
