@@ -11,6 +11,9 @@ PATH = 'content'
 TIMEZONE = 'Europe/Madrid'
 
 DEFAULT_LANG = u'en'
+DEFAULT_DATE_FORMAT = '%a, %d %b %Y'
+DEFAULT_DATE = 'fs'
+LOCALE = ('en_US', 'es_ES')
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
@@ -101,8 +104,12 @@ BANNER = 'images/banner.jpg'
 BANNER_SUBTITLE = 'Periodic brain dump'
 BANNER_ALL_PAGES = True
 
+#Plugins config
+PLUGIN_PATHS = ['../pelican-plugins']
+PLUGINS = ['tipue_search', 'related_posts']
+
 #Search config
-#DIRECT_TEMPLATES = ('index', 'categories', 'authors', 'archives', 'search')
+DIRECT_TEMPLATES = ('index', 'categories', 'authors', 'archives', 'search')
 
 #Summary length derived from article content
 SUMMARY_MAX_LENGTH = 100
@@ -114,3 +121,9 @@ PAGE_URL = '{slug}.html'
 PAGE_SAVE_AS = '{slug}.html'
 YEAR_ARCHIVE_SAVE_AS = 'posts/{date:%Y}/index.html'
 MONTH_ARCHIVE_SAVE_AS = 'posts/{date:%Y}/{date:%b}/index.html'
+
+#Tag cloud
+TAG_CLOUD_MAX_ITEMS = 50
+TAG_CLOUD_STEPS = 2
+DISPLAY_TAGS_ON_SIDEBAR = True
+DISPLAY_TAGS_INLINE = False
