@@ -15,9 +15,10 @@ RELATIVE_URLS = False
 
 FEED_DOMAIN = SITEURL
 FEED_ALL_ATOM = 'feeds/all.atom.xml'
+FEED_ALL_RSS = 'feeds/all.rss.xml'
 
 #Add RSS feed
-SOCIAL = SOCIAL + (('rss', SITEURL + '/' + FEED_ALL_ATOM),)
+SOCIAL = SOCIAL + (('rss', SITEURL + '/' + FEED_ALL_RSS),)
 
 DELETE_OUTPUT_DIRECTORY = True
 
