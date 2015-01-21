@@ -8,7 +8,7 @@ SITEURL = ''
 
 PATH = 'content'
 
-TIMEZONE = 'Europe/Paris'
+TIMEZONE = 'Europe/Madrid'
 
 DEFAULT_LANG = u'en'
 
@@ -106,3 +106,11 @@ BANNER_ALL_PAGES = True
 
 #Summary length derived from article content
 SUMMARY_MAX_LENGTH = 100
+
+#URL settings
+ARTICLE_URL = 'posts/{category}/{slug}/'
+ARTICLE_SAVE_AS = 'posts/{category}/{slug}/index.html'
+PAGE_URL = '{slug}.html'
+PAGE_SAVE_AS = '{slug}.html'
+YEAR_ARCHIVE_SAVE_AS = 'posts/{date:%Y}/index.html'
+MONTH_ARCHIVE_SAVE_AS = 'posts/{date:%Y}/{date:%b}/index.html'
