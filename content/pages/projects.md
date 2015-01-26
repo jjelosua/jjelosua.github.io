@@ -7,7 +7,6 @@ Selection of the projects that I have worked on over the past couple of years. I
 ***
 
 [![España en llamas](images/projects/espanaenllamas_pers_sq.png){.post_right width=40%}](http://www.espanaenllamas.es/){.no_decoration}
-
 ## España en Llamas (Spanish)
 
 ### Description
@@ -25,7 +24,6 @@ After many data wrangling tasks, we achieved a clean database with all the geolo
 ***
 
 [![Indultometro](images/projects/indultometro_pers_sq.png){.post_right width=40%}](http://www.elindultometro.es/index.html){.no_decoration}
-
 ## El Indultómetro (Spanish)
 
 ### Description
@@ -42,7 +40,6 @@ Let's readers search by the type of offense, compare annual data and determine h
 ***
 
 [![Donde van mis impuestos](images/projects/dondevanmisimpuestos_pers_sq.png){.post_right width=40%}](http://www.dondevanmisimpuestos.es/ccaa/){.no_decoration}
-
 ## Donde van mis impuestos (Spanish)
 
 ### Description
@@ -57,7 +54,6 @@ Side project integrated inside a bigger site developed by [civio](http://civio.e
 ***
 
 [![Congreso quien es quien](images/projects/congresoquienesquien_pers_sq.png){.post_right width=40%}](http://congresoquienesquien.herokuapp.com/){.no_decoration}
-
 ## Congreso ¿quién es quien? (Spanish)
 
 ### Description
@@ -74,7 +70,6 @@ We gather data for every spanish member of the parliament since modern democracy
 ***
 
 [![Infoamazonia cattle ranching](images/projects/infoamazonia_pers_600_sq.png){.post_right width=40%}](http://infoamazonia.org/maps/cattle-ranching/){.no_decoration}
-
 ## Infoamazonia Cattle Ranching
 
 ### Description
