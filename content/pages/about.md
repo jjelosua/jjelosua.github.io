@@ -18,5 +18,3 @@ When not around my computer you can find me travelling, having a looong conversa
 
 This blog has been set up to share my experience throughout this year, please feel free to contact me through social media or by [email](mailto:juan.elosua@gmail.com)
 
-This blog has been set up to share my experience throughout this year, please feel free to contact me through social media or by [email](mailto:juan.elosua@gmail.com)
-
