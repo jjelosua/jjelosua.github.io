@@ -4,7 +4,9 @@ from __future__ import unicode_literals
 
 AUTHOR = u'Juan Elosua'
 SITENAME = u'Juan Elosua'
+HIDE_SITENAME = True
 SITEURL = ''
+SITE_GLYPHICON = 'glyphicon-home'
 
 PATH = 'content'
 
@@ -60,8 +62,7 @@ SHOW_ARTICLE_AUTHOR = True
 DISPLAY_RECENT_POSTS_ON_SIDEBAR = True
 
 # About me blurb
-ABOUT_ME = ''' Spanish telecommunications engineer.<br>
-               When I discovered data journalism, I became a data addict &amp; freelance developer.<br>
+ABOUT_ME = ''' Data addict, developer &amp; trainer.<br>
                OpenData &amp; transparency enthusiast.<br>
                2015 Knight-Mozilla fellow at <a href="http://www.lanacion.com.ar/" target="_blank">La Nacion</a>
            '''
@@ -98,15 +99,19 @@ STATIC_PATHS = [
 
 #Pygment config
 PYGMENTS_STYLE = 'autumn'
+MD_EXTENSIONS = ['toc', 'fenced_code', 'codehilite(css_class=highlight)', 'extra']
 
 #Banner config
 BANNER = 'images/banner.jpg'
+BANNER_TITLE = 'Juan Elosua'
 BANNER_SUBTITLE = 'Periodic brain dump'
 BANNER_ALL_PAGES = True
 
 #Plugins config
 PLUGIN_PATHS = ['../pelican-plugins']
-PLUGINS = ['tipue_search', 'related_posts']
+PLUGINS = ['tipue_search', 'related_posts','liquid_tags.img', 'liquid_tags.video',
+           'liquid_tags.youtube', 'liquid_tags.vimeo',
+           'liquid_tags.include_code', 'liquid_tags.notebook']
 
 #Search config
 DIRECT_TEMPLATES = ('index', 'categories', 'authors', 'archives', 'search')
