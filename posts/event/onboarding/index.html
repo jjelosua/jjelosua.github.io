@@ -3,26 +3,182 @@
       xmlns:og="http://ogp.me/ns#"
       xmlns:fb="https://www.facebook.com/2008/fbml">
 <head>
-    <title>Knight-mozilla fellowship onboarding - Juan Elosua</title>
+    <title>2015 Knight-Mozilla fellowship onboarding - Juan Elosua</title>
     <!-- Using the latest rendering mode for IE -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
+
+
+<style type="text/css">
+
+/*some stuff for output/input prompts*/
+div.cell{border:1px solid transparent;display:-webkit-box;-webkit-box-orient:vertical;-webkit-box-align:stretch;display:-moz-box;-moz-box-orient:vertical;-moz-box-align:stretch;display:box;box-orient:vertical;box-align:stretch;display:flex;flex-direction:column;align-items:stretch}div.cell.selected{border-radius:4px;border:thin #ababab solid}
+div.cell.edit_mode{border-radius:4px;border:thin #008000 solid}
+div.cell{width:100%;padding:5px 5px 5px 0;margin:0;outline:none}
+div.prompt{min-width:11ex;padding:.4em;margin:0;font-family:monospace;text-align:right;line-height:1.21429em}
+@media (max-width:480px){div.prompt{text-align:left}}div.inner_cell{display:-webkit-box;-webkit-box-orient:vertical;-webkit-box-align:stretch;display:-moz-box;-moz-box-orient:vertical;-moz-box-align:stretch;display:box;box-orient:vertical;box-align:stretch;display:flex;flex-direction:column;align-items:stretch;-webkit-box-flex:1;-moz-box-flex:1;box-flex:1;flex:1}
+div.input_area{border:1px solid #cfcfcf;border-radius:4px;background:#f7f7f7;line-height:1.21429em}
+div.prompt:empty{padding-top:0;padding-bottom:0}
+div.input{page-break-inside:avoid;display:-webkit-box;-webkit-box-orient:horizontal;-webkit-box-align:stretch;display:-moz-box;-moz-box-orient:horizontal;-moz-box-align:stretch;display:box;box-orient:horizontal;box-align:stretch;}
+div.inner_cell{width:90%;}
+div.input_area{border:1px solid #cfcfcf;border-radius:4px;background:#f7f7f7;}
+div.input_prompt{color:navy;border-top:1px solid transparent;}
+div.output_wrapper{margin-top:5px;position:relative;display:-webkit-box;-webkit-box-orient:vertical;-webkit-box-align:stretch;display:-moz-box;-moz-box-orient:vertical;-moz-box-align:stretch;display:box;box-orient:vertical;box-align:stretch;width:100%;}
+div.output_scroll{height:24em;width:100%;overflow:auto;border-radius:4px;-webkit-box-shadow:inset 0 2px 8px rgba(0, 0, 0, 0.8);-moz-box-shadow:inset 0 2px 8px rgba(0, 0, 0, 0.8);box-shadow:inset 0 2px 8px rgba(0, 0, 0, 0.8);}
+div.output_collapsed{margin:0px;padding:0px;display:-webkit-box;-webkit-box-orient:vertical;-webkit-box-align:stretch;display:-moz-box;-moz-box-orient:vertical;-moz-box-align:stretch;display:box;box-orient:vertical;box-align:stretch;width:100%;}
+div.out_prompt_overlay{height:100%;padding:0px 0.4em;position:absolute;border-radius:4px;}
+div.out_prompt_overlay:hover{-webkit-box-shadow:inset 0 0 1px #000000;-moz-box-shadow:inset 0 0 1px #000000;box-shadow:inset 0 0 1px #000000;background:rgba(240, 240, 240, 0.5);}
+div.output_prompt{color:darkred;}
+
+a.anchor-link:link{text-decoration:none;padding:0px 20px;visibility:hidden;}
+h1:hover .anchor-link,h2:hover .anchor-link,h3:hover .anchor-link,h4:hover .anchor-link,h5:hover .anchor-link,h6:hover .anchor-link{visibility:visible;}
+/* end stuff for output/input prompts*/
+
+
+.highlight-ipynb .hll { background-color: #ffffcc }
+.highlight-ipynb  { background: #f8f8f8; }
+.highlight-ipynb .c { color: #408080; font-style: italic } /* Comment */
+.highlight-ipynb .err { border: 1px solid #FF0000 } /* Error */
+.highlight-ipynb .k { color: #008000; font-weight: bold } /* Keyword */
+.highlight-ipynb .o { color: #666666 } /* Operator */
+.highlight-ipynb .cm { color: #408080; font-style: italic } /* Comment.Multiline */
+.highlight-ipynb .cp { color: #BC7A00 } /* Comment.Preproc */
+.highlight-ipynb .c1 { color: #408080; font-style: italic } /* Comment.Single */
+.highlight-ipynb .cs { color: #408080; font-style: italic } /* Comment.Special */
+.highlight-ipynb .gd { color: #A00000 } /* Generic.Deleted */
+.highlight-ipynb .ge { font-style: italic } /* Generic.Emph */
+.highlight-ipynb .gr { color: #FF0000 } /* Generic.Error */
+.highlight-ipynb .gh { color: #000080; font-weight: bold } /* Generic.Heading */
+.highlight-ipynb .gi { color: #00A000 } /* Generic.Inserted */
+.highlight-ipynb .go { color: #888888 } /* Generic.Output */
+.highlight-ipynb .gp { color: #000080; font-weight: bold } /* Generic.Prompt */
+.highlight-ipynb .gs { font-weight: bold } /* Generic.Strong */
+.highlight-ipynb .gu { color: #800080; font-weight: bold } /* Generic.Subheading */
+.highlight-ipynb .gt { color: #0044DD } /* Generic.Traceback */
+.highlight-ipynb .kc { color: #008000; font-weight: bold } /* Keyword.Constant */
+.highlight-ipynb .kd { color: #008000; font-weight: bold } /* Keyword.Declaration */
+.highlight-ipynb .kn { color: #008000; font-weight: bold } /* Keyword.Namespace */
+.highlight-ipynb .kp { color: #008000 } /* Keyword.Pseudo */
+.highlight-ipynb .kr { color: #008000; font-weight: bold } /* Keyword.Reserved */
+.highlight-ipynb .kt { color: #B00040 } /* Keyword.Type */
+.highlight-ipynb .m { color: #666666 } /* Literal.Number */
+.highlight-ipynb .s { color: #BA2121 } /* Literal.String */
+.highlight-ipynb .na { color: #7D9029 } /* Name.Attribute */
+.highlight-ipynb .nb { color: #008000 } /* Name.Builtin */
+.highlight-ipynb .nc { color: #0000FF; font-weight: bold } /* Name.Class */
+.highlight-ipynb .no { color: #880000 } /* Name.Constant */
+.highlight-ipynb .nd { color: #AA22FF } /* Name.Decorator */
+.highlight-ipynb .ni { color: #999999; font-weight: bold } /* Name.Entity */
+.highlight-ipynb .ne { color: #D2413A; font-weight: bold } /* Name.Exception */
+.highlight-ipynb .nf { color: #0000FF } /* Name.Function */
+.highlight-ipynb .nl { color: #A0A000 } /* Name.Label */
+.highlight-ipynb .nn { color: #0000FF; font-weight: bold } /* Name.Namespace */
+.highlight-ipynb .nt { color: #008000; font-weight: bold } /* Name.Tag */
+.highlight-ipynb .nv { color: #19177C } /* Name.Variable */
+.highlight-ipynb .ow { color: #AA22FF; font-weight: bold } /* Operator.Word */
+.highlight-ipynb .w { color: #bbbbbb } /* Text.Whitespace */
+.highlight-ipynb .mf { color: #666666 } /* Literal.Number.Float */
+.highlight-ipynb .mh { color: #666666 } /* Literal.Number.Hex */
+.highlight-ipynb .mi { color: #666666 } /* Literal.Number.Integer */
+.highlight-ipynb .mo { color: #666666 } /* Literal.Number.Oct */
+.highlight-ipynb .sb { color: #BA2121 } /* Literal.String.Backtick */
+.highlight-ipynb .sc { color: #BA2121 } /* Literal.String.Char */
+.highlight-ipynb .sd { color: #BA2121; font-style: italic } /* Literal.String.Doc */
+.highlight-ipynb .s2 { color: #BA2121 } /* Literal.String.Double */
+.highlight-ipynb .se { color: #BB6622; font-weight: bold } /* Literal.String.Escape */
+.highlight-ipynb .sh { color: #BA2121 } /* Literal.String.Heredoc */
+.highlight-ipynb .si { color: #BB6688; font-weight: bold } /* Literal.String.Interpol */
+.highlight-ipynb .sx { color: #008000 } /* Literal.String.Other */
+.highlight-ipynb .sr { color: #BB6688 } /* Literal.String.Regex */
+.highlight-ipynb .s1 { color: #BA2121 } /* Literal.String.Single */
+.highlight-ipynb .ss { color: #19177C } /* Literal.String.Symbol */
+.highlight-ipynb .bp { color: #008000 } /* Name.Builtin.Pseudo */
+.highlight-ipynb .vc { color: #19177C } /* Name.Variable.Class */
+.highlight-ipynb .vg { color: #19177C } /* Name.Variable.Global */
+.highlight-ipynb .vi { color: #19177C } /* Name.Variable.Instance */
+.highlight-ipynb .il { color: #666666 } /* Literal.Number.Integer.Long */
+</style>
+
+<style type="text/css">
+/* Overrides of notebook CSS for static HTML export */
+div.entry-content {
+  overflow: visible;
+  padding: 8px;
+}
+.input_area {
+  padding: 0.2em;
+}
+
+a.heading-anchor {
+ white-space: normal;
+}
+
+.rendered_html
+code {
+ font-size: .8em;
+}
+
+pre.ipynb {
+  color: black;
+  background: #f7f7f7;
+  border: none;
+  box-shadow: none;
+  margin-bottom: 0;
+  padding: 0;
+  margin: 0px;
+  font-size: 13px;
+}
+
+/* remove the prompt div from text cells */
+div.text_cell .prompt {
+    display: none;
+}
+
+/* remove horizontal padding from text cells, */
+/* so it aligns with outer body text */
+div.text_cell_render {
+    padding: 0.5em 0em;
+}
+
+img.anim_icon{padding:0; border:0; vertical-align:middle; -webkit-box-shadow:none; -box-shadow:none}
+</style>
+
+<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML" type="text/javascript"></script>
+<script type="text/javascript">
+init_mathjax = function() {
+    if (window.MathJax) {
+        // MathJax loaded
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+                displayMath: [ ['$$','$$'], ["\\[","\\]"] ]
+            },
+            displayAlign: 'left', // Change this to 'center' to center equations.
+            "HTML-CSS": {
+                styles: {'.MathJax_Display': {"margin": 0}}
+            }
+        });
+        MathJax.Hub.Queue(["Typeset",MathJax.Hub]);
+    }
+}
+init_mathjax();
+</script>
     <link href="http://www.juanelosua.com/images/favicon.png" rel="icon">
 
 <link rel="canonical" href="http://www.juanelosua.com/posts/event/onboarding/">
 
         <meta name="author" content="Juan Elosua" />
         <meta name="keywords" content="opennews" />
-        <meta name="description" content="Description of the onboarding event for the 2015 Knight-Mozilla Fellowship Work in progress..." />
+        <meta name="description" content="2015 is starting and as a new Knight-Mozilla fellows I joined the rest of the cohort in the onboarding event in Los Angeles. I am very grateful to Dan, Erika, Ryan and Erin (in spirit) for giving us the opportunity to get to know the rest of the fellows in more depth both personally and professionally. This fellowship is one of a kind in the sense that each one of us is going to be headed to a different newsroom so this event was a good opportunity to establish relationships that will be kept during 2015 but mainly through remote ..." />
 
         <meta property="og:site_name" content="Juan Elosua" />
         <meta property="og:type" content="article"/>
-        <meta property="og:title" content="Knight-mozilla fellowship onboarding"/>
+        <meta property="og:title" content="2015 Knight-Mozilla fellowship onboarding"/>
         <meta property="og:url" content="http://www.juanelosua.com/posts/event/onboarding/"/>
-        <meta property="og:description" content="Description of the onboarding event for the 2015 Knight-Mozilla Fellowship Work in progress..."/>
+        <meta property="og:description" content="2015 is starting and as a new Knight-Mozilla fellows I joined the rest of the cohort in the onboarding event in Los Angeles. I am very grateful to Dan, Erika, Ryan and Erin (in spirit) for giving us the opportunity to get to know the rest of the fellows in more depth both personally and professionally. This fellowship is one of a kind in the sense that each one of us is going to be headed to a different newsroom so this event was a good opportunity to establish relationships that will be kept during 2015 but mainly through remote ..."/>
         <meta property="article:published_time" content="2014-01-20" />
             <meta property="article:section" content="event" />
             <meta property="article:tag" content="opennews" />
@@ -60,7 +216,8 @@
                 <span class="icon-bar"></span>
             </button>
             <a href="http://www.juanelosua.com/" class="navbar-brand">
-Juan Elosua            </a>
+                <span class="glyphicon glyphicon-home" aria-hidden="true"></span>
+            </a>
         </div>
         <div class="collapse navbar-collapse navbar-ex1-collapse">
             <ul class="nav navbar-nav">
@@ -69,6 +226,9 @@ Juan Elosua            </a>
                           </a></li>
                          <li><a href="http://www.juanelosua.com/projects.html">
                              Projects
+                          </a></li>
+                         <li><a href="http://www.juanelosua.com/training.html">
+                             Trainings
                           </a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
@@ -108,8 +268,8 @@ Juan Elosua            </a>
                 <h1>
                     <a href="http://www.juanelosua.com/posts/event/onboarding/"
                        rel="bookmark"
-                       title="Permalink to Knight-mozilla fellowship onboarding">
-                        Knight-mozilla fellowship onboarding
+                       title="Permalink to 2015 Knight-Mozilla fellowship onboarding">
+                        2015 Knight-Mozilla fellowship onboarding
                     </a>
                 </h1>
             </header>
@@ -133,8 +293,88 @@ Juan Elosua            </a>
     
 </footer><!-- /.post-info -->                    </div>
                 </div>
-                <p>Description of the onboarding event for the 2015 Knight-Mozilla Fellowship</p>
-<p>Work in progress...</p>
+                <p>2015 is starting and as a new Knight-Mozilla fellows I joined the rest of the cohort in the onboarding event in Los Angeles. I am very grateful to Dan, Erika, Ryan and Erin (in spirit) for giving us the opportunity to get to know the rest of the fellows in more depth both personally and professionally.</p>
+<p>This fellowship is one of a kind in the sense that each one of us is going to be headed to a different newsroom so this event was a good opportunity to establish relationships that will be kept during 2015 but mainly through remote channels.</p>
+<p>In this post I will try to share with you my impressions of the event where we have received tons of information and were able to work together in an open source project started by the <a href="http://www.californiacivicdata.org/">California Civic Data Coalition</a> that tries to provide a better understanding of campaign finance in the state of California.</p>
+<hr />
+<h2 id="day-1-jan-12th">Day 1 (Jan 12th)</h2>
+<p>To start the onboarding event we went to <a href="http://www.thehubla.com/">The Hub LA</a>, Two former fellows <a href="https://twitter.com/brianabelson">Brian Abelson</a> (2013) and <a href="https://twitter.com/auremoser">Aurelia Moser</a> (2014) joined us and share their experiences and tips with us. It was really important to listen to their advices since they are the best counsellors that we could have having lived the same situations that we are going to have this year.</p>
+<p>Some of their recommendations were:
+<em> Try to stay as organized as possible
+</em> Have a fluent communication about your interests and schedule with your point of contact in the newsroom
+* Conferences are great but this fellowship is in no way a one-shot opportunity so try to select the ones that will be more profitable.</p>
+<p>We were also fed with a full plate of information from the opennews staff regarding logistics, policies, community and how to work in the open sharing the experience as one of the main goals of the fellowship.</p>
+<hr />
+<h2 id="day-2-jan-13th">Day 2 (Jan 13th)</h2>
+<p><img alt="LATimes visit" class="post_left" src="/images/onboarding/LAtimes.jpg" width="50%" /></p>
+<p>We visited the LA Times newsroom guided by <a href="https://twitter.com/palewire">Ben Welsh</a>. We shamelessly interrupted some journalists and got the chance to ask them questions regarding their work and their relationship with the Data Desk that Ben leads at the newsroom. It was really an interesting visit where we got the sense of the work that each of us will be doing at our host newsroom.</p>
+<p>Data journalism seems to be a brand new thing but we have learned from people in the LA times that data related investigations have been done since the 80s...of course with different tools but we are not reinventing the wheel, the challenges and workflows of data investigations apply the same now as they did back then.</p>
+<div class="clear_float"></div>
+
+<hr />
+<h2 id="day-3-jan-14th">Day 3 (Jan 14th)</h2>
+<p>We went to USC to begin our two hackdays on the <a href="http://django-calaccess-campaign-browser.californiacivicdata.org/en/latest/">CAL-ACCESS campaign browser</a> project. Ben Welsh and <a href="https://twitter.com/aboutaaron">Aaron Williams</a> from the CIR gave us an overview of the project goals and the tasks that they had in mind for our contribution to the project.</p>
+<p><img alt="USC campaign-browser hackday" class="post_right" src="/images/onboarding/hackday.jpg" width="50%" /></p>
+<p>The campaign browser is an ongoing project that aims at helping journalists and other interested persons in improving their way of extracting meaningful information out of  the <a href="http://cal-access.ss.ca.gov/default.aspx">CAL-ACCESS</a> data.</p>
+<p>We had tasks that were oriented towards frontend as well as backend improvements.</p>
+<p>Since I am more comfortable in backend tasks, <a href="https://twitter.com/frnsys">Francis</a>, Ben and I started working on a scraper ran as a custom django-admin command that will complement the information dump that the secretary of state publishes on a daily basis.</p>
+<p>We wanted to be able to answer some questions that believe it or not were not possible to answer without that scraping task from the original dump, for example: How much money was spent in campaign finance for each election?</p>
+<p>Also we wanted to be able to link each ballot measure with their supporting/opposing committees and we wrote a second scraper to do that.</p>
+<h3 id="tech-tip-of-the-day">Tech tip of the day</h3>
+<p>If you have not used Django models before there is one nice feature that I will try to point out when building many-to-many relationships in a Django model.</p>
+<p>In our example a <em>propostition/ballot measure</em> can have many <em>committees</em> associated with but that works reversely also a <em>committee</em> can support/oppose to many <em>propositions</em>. In relational databases this is known as a many-to-many relationship.</p>
+<p>Django allows you to model that with a <a href="https://docs.djangoproject.com/en/1.7/topics/db/examples/many_to_many/">ManyToManyField</a>. </p>
+<p>When creating the model using the migrate command, Django under the hood will create a table in the Database for the relationship between <em>proposition</em> and <em>committee</em>.</p>
+<div class="highlight"><pre><span class="nv">$ </span>python manage.py migrate
+</pre></div>
+
+
+<p>But what if we wanted to characterize that relationship with some attribute as is the case in out example. We don't want just the relationship between a <em>proposition</em> and a <em>committee</em> we want to know also if the <em>commitee</em> is supporting or opposing to the <em>proposition</em>. </p>
+<p>We can do that in Django by providing a <em>through</em> model to the ManyToManyField (In CAL-ACCESS a committee is identified by a Filer). Now we can explicitly create the relationship model.</p>
+<div class="highlight"><pre><span class="k">class</span> <span class="nc">Proposition</span><span class="p">(</span><span class="n">BaseModel</span><span class="p">):</span>
+    <span class="n">name</span> <span class="o">=</span> <span class="n">models</span><span class="o">.</span><span class="n">CharField</span><span class="p">(</span><span class="n">max_length</span><span class="o">=</span><span class="mi">255</span><span class="p">,</span> <span class="n">null</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
+    <span class="n">filer_id_raw</span> <span class="o">=</span> <span class="n">models</span><span class="o">.</span><span class="n">IntegerField</span><span class="p">(</span><span class="n">db_index</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span> <span class="c">#</span>
+    <span class="n">election</span> <span class="o">=</span> <span class="n">models</span><span class="o">.</span><span class="n">ForeignKey</span><span class="p">(</span><span class="n">Election</span><span class="p">,</span> <span class="n">null</span><span class="o">=</span><span class="bp">True</span><span class="p">,</span> <span class="n">default</span><span class="o">=</span><span class="bp">None</span><span class="p">)</span>
+<span class="hll">    <span class="n">filers</span> <span class="o">=</span> <span class="n">models</span><span class="o">.</span><span class="n">ManyToManyField</span><span class="p">(</span><span class="n">Filer</span><span class="p">,</span> <span class="n">through</span><span class="o">=</span><span class="s">&#39;PropositionFiler&#39;</span><span class="p">)</span>
+</span></pre></div>
+
+
+<p>Take a look at the PropositionFiler class that models the relationship. We need to provide at least the keys that will relate the two models in our case <em>proposition</em> and <em>filer</em> (When not using a through model this would be what django will create under the hood). But now check the position field where we can characterize the relationship with a support or oppose stating whether the committee (filer) opposes/supports the related proposition.</p>
+<div class="highlight"><pre><span class="k">class</span> <span class="nc">PropositionFiler</span><span class="p">(</span><span class="n">BaseModel</span><span class="p">):</span>
+    <span class="n">POSITION_CHOICES</span> <span class="o">=</span> <span class="p">(</span>
+        <span class="p">(</span><span class="s">&#39;SUPPORT&#39;</span><span class="p">,</span> <span class="s">&#39;Support&#39;</span><span class="p">),</span>
+        <span class="p">(</span><span class="s">&#39;OPPOSE&#39;</span><span class="p">,</span> <span class="s">&#39;Oppose&#39;</span><span class="p">),</span>
+    <span class="p">)</span>
+<span class="hll">    <span class="n">proposition</span> <span class="o">=</span> <span class="n">models</span><span class="o">.</span><span class="n">ForeignKey</span><span class="p">(</span><span class="n">Proposition</span><span class="p">)</span>
+</span><span class="hll">    <span class="n">filer</span> <span class="o">=</span> <span class="n">models</span><span class="o">.</span><span class="n">ForeignKey</span><span class="p">(</span><span class="n">Filer</span><span class="p">)</span>
+</span>    <span class="n">position</span> <span class="o">=</span> <span class="n">models</span><span class="o">.</span><span class="n">CharField</span><span class="p">(</span>
+        <span class="n">choices</span><span class="o">=</span><span class="n">POSITION_CHOICES</span><span class="p">,</span>
+        <span class="n">max_length</span><span class="o">=</span><span class="mi">50</span>
+    <span class="p">)</span>
+</pre></div>
+
+
+<p>You can use a through model in a many-to-many relationship each time you need to qualify our characterize that relationship with some attributes.</p>
+<p>You can read more about the through option in the awesome django documentation <a href="https://docs.djangoproject.com/en/1.7/topics/db/models/#intermediary-manytomany">here</a></p>
+<div class="clear_float"></div>
+
+<hr />
+<h2 id="day-4-jan-15th">Day 4 (Jan 15th)</h2>
+<p>After a successful scrape we cleaned up the code a little bit, document it and pushed the changes. I have not been involved in large open source projects with more than 3 or 4 developers so this was a good opportunity to grasp important ideas related to documentation and workflows needed to keep a distributed open source project running smoothly.</p>
+<p>Ben, shared with us his vision on the <em>Documentation Driven Development</em> which I thought was a nice advise to push open source projects forward instead of what Dan mentioned to be <em>source available</em> projects. I certainly need to progress on this myself and that is one of the challenges I will be facing during this fellowship year.</p>
+<p>I switched to some frontend task to help <a href="https://twitter.com/taraandtheworld">Tara</a> figure out how to handle a visualization that uses <a href="http://dc-js.github.io/dc.js/">dc.js</a>. DC.js is a javascript charting library with native <a href="http://square.github.io/crossfilter/">Crossfilter</a> support allowing highly efficient exploration on large multi-dimensional dataset. It leverages <a href="http://d3js.org/">D3</a> engine to render charts in css friendly svg format.</p>
+<p><img alt="DC.js library" class="post_full_nb" src="/images/onboarding/dc.png" /></p>
+<p>If you want to get started with dc.js I found this four part <a href="http://www.codeproject.com/Articles/693841/Making-Dashboards-with-Dc-js-Part-Using-Crossfil">tutorial</a> easy to follow when I try to figure out how to use that library...Trust me give it a chance...you will love it!!</p>
+<div class="clear_float"></div>
+
+<hr />
+<h2 id="summary">Summary</h2>
+<p><img alt="github activity" class="post_right_nb" src="/images/onboarding/commits.png" width="50%" /></p>
+<p>Overall the onboarding event was a great experience, we got to work together as a cohort and shared our strong and weak points with the rest. I feel now more comfortable to work together, share our knowledge and collaborate in some projects during this amazing year.</p>
+<p>To end this post I will like to thank <a href="https://twitter.com/dansinker">Dan</a>, <a href="https://twitter.com/erika_owens">Erika</a> and <a href="https://twitter.com/ryanpitts">Ryan</a> for their support and openness...you make everybody feel welcomed and challenged to keep growing the awesome data journalism tech community out there.</p>
+<div class="clear_float"></div>
+
+<p><img alt="USC fellows" class="post_full" src="/images/onboarding/fellows.jpg" width="70%" /></p>
             </div>
             <!-- /.entry-content -->
     <hr />
@@ -184,12 +424,12 @@ Juan Elosua            </a>
             <aside>
 <div id="aboutme">
         <p>
-            <img width="100%" class="img-thumbnail" src="/images/profile.jpg"/>
+            <!--Added a link to the about page-->
+            <a href="/about.html"><img width="100%" class="img-thumbnail" src="/images/profile.jpg"/></a>
         </p>
     <p>
-        <strong>About Juan Elosua</strong><br/>
-         Spanish telecommunications engineer.<br>
-               When I discovered data journalism, I became a data addict &amp; freelance developer.<br>
+        <!--<strong>About Juan Elosua</strong><br/>-->
+         Data addict, developer &amp; trainer.<br>
                OpenData &amp; transparency enthusiast.<br>
                2015 Knight-Mozilla fellow at <a href="http://www.lanacion.com.ar/" target="_blank">La Nacion</a>
            
@@ -210,7 +450,7 @@ Juan Elosua            </a>
                 <ul class="list-group" id="recentposts">
                     <li class="list-group-item">
                         <a href="http://www.juanelosua.com/posts/event/onboarding/">
-                            Knight-mozilla fellowship onboarding
+                            2015 Knight-Mozilla fellowship onboarding
                         </a>
                     </li>
                 </ul>

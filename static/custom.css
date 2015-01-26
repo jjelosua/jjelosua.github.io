@@ -1,0 +1,60 @@
+.entry-content a.no_decoration {
+    border-bottom: none;
+}
+
+.entry-content img.wborder {
+    border-width: 1px;
+    border-color: Black;
+}
+
+.entry-content img.training_org {
+    padding:20px;
+}
+
+.entry-content p {
+    text-align: justify;
+}
+
+.entry-content img.post_right {
+    float: right; 
+    padding: 10px; 
+    border: 1px solid #b8b8b8;
+    border-radius: 4px; 
+    margin-left: 10px
+}
+
+.entry-content img.post_left {
+    float: left; 
+    padding: 10px; 
+    border: 1px solid #b8b8b8;
+    border-radius: 4px; 
+    margin-right: 10px
+}
+
+.entry-content img.post_right_nb { 
+    float: right;
+    margin-left: 10px;
+}
+
+.entry-content img.post_left_nb {
+    float: left;  
+    margin-right: 10px;
+}
+
+.entry-content img.post_full {
+    display: block;
+    margin: 0 auto;
+    padding: 10px; 
+    border: 1px solid #b8b8b8;
+    border-radius: 4px;
+}
+
+.entry-content img.post_full_nb { 
+    display: block;
+    margin: 0 auto;
+}
+
+.entry-content div.clear_float {
+    clear: both;
+}
+

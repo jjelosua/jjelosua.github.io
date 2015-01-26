@@ -1,3 +1,83 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Juan Elosua</title><link>http://www.juanelosua.com/</link><description></description><atom:link href="http://www.juanelosua.com/feeds/all.rss.xml" rel="self"></atom:link><lastBuildDate>Mon, 20 Jan 2014 13:20:00 +0100</lastBuildDate><item><title>Knight-mozilla fellowship onboarding</title><link>http://www.juanelosua.com/posts/event/onboarding/</link><description>&lt;p&gt;Description of the onboarding event for the 2015 Knight-Mozilla Fellowship&lt;/p&gt;
-&lt;p&gt;Work in progress...&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Juan Elosua</dc:creator><pubDate>Mon, 20 Jan 2014 13:20:00 +0100</pubDate><guid>tag:www.juanelosua.com,2014-01-20:posts/event/onboarding/</guid><category>opennews</category></item></channel></rss>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Juan Elosua</title><link>http://www.juanelosua.com/</link><description></description><atom:link href="http://www.juanelosua.com/feeds/all.rss.xml" rel="self"></atom:link><lastBuildDate>Mon, 20 Jan 2014 13:20:00 +0100</lastBuildDate><item><title>2015 Knight-Mozilla fellowship onboarding</title><link>http://www.juanelosua.com/posts/event/onboarding/</link><description>&lt;p&gt;2015 is starting and as a new Knight-Mozilla fellows I joined the rest of the cohort in the onboarding event in Los Angeles. I am very grateful to Dan, Erika, Ryan and Erin (in spirit) for giving us the opportunity to get to know the rest of the fellows in more depth both personally and professionally.&lt;/p&gt;
+&lt;p&gt;This fellowship is one of a kind in the sense that each one of us is going to be headed to a different newsroom so this event was a good opportunity to establish relationships that will be kept during 2015 but mainly through remote channels.&lt;/p&gt;
+&lt;p&gt;In this post I will try to share with you my impressions of the event where we have received tons of information and were able to work together in an open source project started by the &lt;a href="http://www.californiacivicdata.org/"&gt;California Civic Data Coalition&lt;/a&gt; that tries to provide a better understanding of campaign finance in the state of California.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2 id="day-1-jan-12th"&gt;Day 1 (Jan 12th)&lt;/h2&gt;
+&lt;p&gt;To start the onboarding event we went to &lt;a href="http://www.thehubla.com/"&gt;The Hub LA&lt;/a&gt;, Two former fellows &lt;a href="https://twitter.com/brianabelson"&gt;Brian Abelson&lt;/a&gt; (2013) and &lt;a href="https://twitter.com/auremoser"&gt;Aurelia Moser&lt;/a&gt; (2014) joined us and share their experiences and tips with us. It was really important to listen to their advices since they are the best counsellors that we could have having lived the same situations that we are going to have this year.&lt;/p&gt;
+&lt;p&gt;Some of their recommendations were:
+&lt;em&gt; Try to stay as organized as possible
+&lt;/em&gt; Have a fluent communication about your interests and schedule with your point of contact in the newsroom
+* Conferences are great but this fellowship is in no way a one-shot opportunity so try to select the ones that will be more profitable.&lt;/p&gt;
+&lt;p&gt;We were also fed with a full plate of information from the opennews staff regarding logistics, policies, community and how to work in the open sharing the experience as one of the main goals of the fellowship.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2 id="day-2-jan-13th"&gt;Day 2 (Jan 13th)&lt;/h2&gt;
+&lt;p&gt;&lt;img alt="LATimes visit" class="post_left" src="/images/onboarding/LAtimes.jpg" width="50%" /&gt;&lt;/p&gt;
+&lt;p&gt;We visited the LA Times newsroom guided by &lt;a href="https://twitter.com/palewire"&gt;Ben Welsh&lt;/a&gt;. We shamelessly interrupted some journalists and got the chance to ask them questions regarding their work and their relationship with the Data Desk that Ben leads at the newsroom. It was really an interesting visit where we got the sense of the work that each of us will be doing at our host newsroom.&lt;/p&gt;
+&lt;p&gt;Data journalism seems to be a brand new thing but we have learned from people in the LA times that data related investigations have been done since the 80s...of course with different tools but we are not reinventing the wheel, the challenges and workflows of data investigations apply the same now as they did back then.&lt;/p&gt;
+&lt;div class="clear_float"&gt;&lt;/div&gt;
+
+&lt;hr /&gt;
+&lt;h2 id="day-3-jan-14th"&gt;Day 3 (Jan 14th)&lt;/h2&gt;
+&lt;p&gt;We went to USC to begin our two hackdays on the &lt;a href="http://django-calaccess-campaign-browser.californiacivicdata.org/en/latest/"&gt;CAL-ACCESS campaign browser&lt;/a&gt; project. Ben Welsh and &lt;a href="https://twitter.com/aboutaaron"&gt;Aaron Williams&lt;/a&gt; from the CIR gave us an overview of the project goals and the tasks that they had in mind for our contribution to the project.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="USC campaign-browser hackday" class="post_right" src="/images/onboarding/hackday.jpg" width="50%" /&gt;&lt;/p&gt;
+&lt;p&gt;The campaign browser is an ongoing project that aims at helping journalists and other interested persons in improving their way of extracting meaningful information out of  the &lt;a href="http://cal-access.ss.ca.gov/default.aspx"&gt;CAL-ACCESS&lt;/a&gt; data.&lt;/p&gt;
+&lt;p&gt;We had tasks that were oriented towards frontend as well as backend improvements.&lt;/p&gt;
+&lt;p&gt;Since I am more comfortable in backend tasks, &lt;a href="https://twitter.com/frnsys"&gt;Francis&lt;/a&gt;, Ben and I started working on a scraper ran as a custom django-admin command that will complement the information dump that the secretary of state publishes on a daily basis.&lt;/p&gt;
+&lt;p&gt;We wanted to be able to answer some questions that believe it or not were not possible to answer without that scraping task from the original dump, for example: How much money was spent in campaign finance for each election?&lt;/p&gt;
+&lt;p&gt;Also we wanted to be able to link each ballot measure with their supporting/opposing committees and we wrote a second scraper to do that.&lt;/p&gt;
+&lt;h3 id="tech-tip-of-the-day"&gt;Tech tip of the day&lt;/h3&gt;
+&lt;p&gt;If you have not used Django models before there is one nice feature that I will try to point out when building many-to-many relationships in a Django model.&lt;/p&gt;
+&lt;p&gt;In our example a &lt;em&gt;propostition/ballot measure&lt;/em&gt; can have many &lt;em&gt;committees&lt;/em&gt; associated with but that works reversely also a &lt;em&gt;committee&lt;/em&gt; can support/oppose to many &lt;em&gt;propositions&lt;/em&gt;. In relational databases this is known as a many-to-many relationship.&lt;/p&gt;
+&lt;p&gt;Django allows you to model that with a &lt;a href="https://docs.djangoproject.com/en/1.7/topics/db/examples/many_to_many/"&gt;ManyToManyField&lt;/a&gt;. &lt;/p&gt;
+&lt;p&gt;When creating the model using the migrate command, Django under the hood will create a table in the Database for the relationship between &lt;em&gt;proposition&lt;/em&gt; and &lt;em&gt;committee&lt;/em&gt;.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="nv"&gt;$ &lt;/span&gt;python manage.py migrate
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;But what if we wanted to characterize that relationship with some attribute as is the case in out example. We don't want just the relationship between a &lt;em&gt;proposition&lt;/em&gt; and a &lt;em&gt;committee&lt;/em&gt; we want to know also if the &lt;em&gt;commitee&lt;/em&gt; is supporting or opposing to the &lt;em&gt;proposition&lt;/em&gt;. &lt;/p&gt;
+&lt;p&gt;We can do that in Django by providing a &lt;em&gt;through&lt;/em&gt; model to the ManyToManyField (In CAL-ACCESS a committee is identified by a Filer). Now we can explicitly create the relationship model.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="k"&gt;class&lt;/span&gt; &lt;span class="nc"&gt;Proposition&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;BaseModel&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+    &lt;span class="n"&gt;name&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;models&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;CharField&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;max_length&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="mi"&gt;255&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;null&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="bp"&gt;True&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+    &lt;span class="n"&gt;filer_id_raw&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;models&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;IntegerField&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;db_index&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="bp"&gt;True&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="c"&gt;#&lt;/span&gt;
+    &lt;span class="n"&gt;election&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;models&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;ForeignKey&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;Election&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;null&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="bp"&gt;True&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;default&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="bp"&gt;None&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="hll"&gt;    &lt;span class="n"&gt;filers&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;models&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;ManyToManyField&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;Filer&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;through&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&amp;#39;PropositionFiler&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Take a look at the PropositionFiler class that models the relationship. We need to provide at least the keys that will relate the two models in our case &lt;em&gt;proposition&lt;/em&gt; and &lt;em&gt;filer&lt;/em&gt; (When not using a through model this would be what django will create under the hood). But now check the position field where we can characterize the relationship with a support or oppose stating whether the committee (filer) opposes/supports the related proposition.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="k"&gt;class&lt;/span&gt; &lt;span class="nc"&gt;PropositionFiler&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;BaseModel&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+    &lt;span class="n"&gt;POSITION_CHOICES&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;
+        &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;&amp;#39;SUPPORT&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s"&gt;&amp;#39;Support&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;),&lt;/span&gt;
+        &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;&amp;#39;OPPOSE&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s"&gt;&amp;#39;Oppose&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;),&lt;/span&gt;
+    &lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="hll"&gt;    &lt;span class="n"&gt;proposition&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;models&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;ForeignKey&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;Proposition&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;span class="hll"&gt;    &lt;span class="n"&gt;filer&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;models&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;ForeignKey&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;Filer&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/span&gt;    &lt;span class="n"&gt;position&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;models&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;CharField&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;
+        &lt;span class="n"&gt;choices&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="n"&gt;POSITION_CHOICES&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+        &lt;span class="n"&gt;max_length&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="mi"&gt;50&lt;/span&gt;
+    &lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;You can use a through model in a many-to-many relationship each time you need to qualify our characterize that relationship with some attributes.&lt;/p&gt;
+&lt;p&gt;You can read more about the through option in the awesome django documentation &lt;a href="https://docs.djangoproject.com/en/1.7/topics/db/models/#intermediary-manytomany"&gt;here&lt;/a&gt;&lt;/p&gt;
+&lt;div class="clear_float"&gt;&lt;/div&gt;
+
+&lt;hr /&gt;
+&lt;h2 id="day-4-jan-15th"&gt;Day 4 (Jan 15th)&lt;/h2&gt;
+&lt;p&gt;After a successful scrape we cleaned up the code a little bit, document it and pushed the changes. I have not been involved in large open source projects with more than 3 or 4 developers so this was a good opportunity to grasp important ideas related to documentation and workflows needed to keep a distributed open source project running smoothly.&lt;/p&gt;
+&lt;p&gt;Ben, shared with us his vision on the &lt;em&gt;Documentation Driven Development&lt;/em&gt; which I thought was a nice advise to push open source projects forward instead of what Dan mentioned to be &lt;em&gt;source available&lt;/em&gt; projects. I certainly need to progress on this myself and that is one of the challenges I will be facing during this fellowship year.&lt;/p&gt;
+&lt;p&gt;I switched to some frontend task to help &lt;a href="https://twitter.com/taraandtheworld"&gt;Tara&lt;/a&gt; figure out how to handle a visualization that uses &lt;a href="http://dc-js.github.io/dc.js/"&gt;dc.js&lt;/a&gt;. DC.js is a javascript charting library with native &lt;a href="http://square.github.io/crossfilter/"&gt;Crossfilter&lt;/a&gt; support allowing highly efficient exploration on large multi-dimensional dataset. It leverages &lt;a href="http://d3js.org/"&gt;D3&lt;/a&gt; engine to render charts in css friendly svg format.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="DC.js library" class="post_full_nb" src="/images/onboarding/dc.png" /&gt;&lt;/p&gt;
+&lt;p&gt;If you want to get started with dc.js I found this four part &lt;a href="http://www.codeproject.com/Articles/693841/Making-Dashboards-with-Dc-js-Part-Using-Crossfil"&gt;tutorial&lt;/a&gt; easy to follow when I try to figure out how to use that library...Trust me give it a chance...you will love it!!&lt;/p&gt;
+&lt;div class="clear_float"&gt;&lt;/div&gt;
+
+&lt;hr /&gt;
+&lt;h2 id="summary"&gt;Summary&lt;/h2&gt;
+&lt;p&gt;&lt;img alt="github activity" class="post_right_nb" src="/images/onboarding/commits.png" width="50%" /&gt;&lt;/p&gt;
+&lt;p&gt;Overall the onboarding event was a great experience, we got to work together as a cohort and shared our strong and weak points with the rest. I feel now more comfortable to work together, share our knowledge and collaborate in some projects during this amazing year.&lt;/p&gt;
+&lt;p&gt;To end this post I will like to thank &lt;a href="https://twitter.com/dansinker"&gt;Dan&lt;/a&gt;, &lt;a href="https://twitter.com/erika_owens"&gt;Erika&lt;/a&gt; and &lt;a href="https://twitter.com/ryanpitts"&gt;Ryan&lt;/a&gt; for their support and openness...you make everybody feel welcomed and challenged to keep growing the awesome data journalism tech community out there.&lt;/p&gt;
+&lt;div class="clear_float"&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;img alt="USC fellows" class="post_full" src="/images/onboarding/fellows.jpg" width="70%" /&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Juan Elosua</dc:creator><pubDate>Mon, 20 Jan 2014 13:20:00 +0100</pubDate><guid>tag:www.juanelosua.com,2014-01-20:posts/event/onboarding/</guid><category>opennews</category></item></channel></rss>
