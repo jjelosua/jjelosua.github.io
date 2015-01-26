@@ -69,7 +69,7 @@ We gather data for every spanish member of the parliament since modern democracy
 
 ***
 
-[![Infoamazonia cattle ranching](images/projects/infoamazonia_pers_600_sq.png){.post_right width=40%}](http://infoamazonia.org/maps/cattle-ranching/){.no_decoration}
+[![Infoamazonia cattle ranching](images/projects/infoamazonia_pers_sq.png){.post_right width=40%}](http://infoamazonia.org/maps/cattle-ranching/){.no_decoration}
 ## Infoamazonia Cattle Ranching
 
 ### Description
