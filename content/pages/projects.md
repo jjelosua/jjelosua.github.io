@@ -70,7 +70,7 @@ We gather data for every spanish member of the parliament since modern democracy
 ***
 
 [![Infoamazonia cattle ranching](images/projects/infoamazonia_pers_sq.png){.post_right width=40%}](http://infoamazonia.org/maps/cattle-ranching/){.no_decoration}
-## Info amazonia Cattle Ranching
+## Info Amazonia Cattle Ranching
 
 ### Description
 Project developed during the [15th IACC anti-corruption conference](http://15iacc.org/) hackathon together with [Gustavo Faleiros](https://twitter.com/gfaleiros) and [Carlos Sanchez](https://es.linkedin.com/pub/carlos-s%C3%A1nchez-peri%C3%B1%C3%A1n/8/85/51b).
