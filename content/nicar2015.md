@@ -4,17 +4,13 @@ Category: event
 Tags: opennews
 Slug: nicar2015
 
+[Nicar2015](http://ire.org/conferences/nicar2015/) in Atlanta was my first conference as a Knight-Mozilla fellow and it was a fantastic experience. More than 1,000 people from the journalism & desgin & technology fields gather for a intensive stint of 4-5 days with hands-on sessions, panels and demos on tools to innovate in the Computer Assisted Journalism.
 
-
-This year's NICAR conference in Atlanta was overall a great experience, It has helped me focus my fellowship year on machine learning. I think this technique will become more and more adopted by newsrooms in the following years.
-
-I have met many people with my same interests (is always good not to feel alone...). I also had the opportunity to get to know more the 2015 knight-mozilla fellows cohort and spend time with other fellows from past years.
+One of the first things that you realize once you get there is that you are going to have a feeling of missing out no matter how hard you try. There are over 10 simultaneous sessions and unless you can clone yourself (tried that but didn't work...) you need to carefully choose the sessions that you think you can take more profit from.
 
 ![Atlanta](/images/nicar2015/Atlanta.jpg){.post_left width=48%} ![Nicar](/images/nicar2015/NicarEvolution.jpg){.post_right width=48%} 
 
-This year's NICAR conference in Atlanta was overall a great experience, It has helped me focus my fellowship year on machine learning. I think this technique will become more and more adopted by newsrooms in the following years.
-
-I have met many people with my same interests (is always good not to feel alone...). I also had the opportunity to get to know more the 2015 knight-mozilla fellows cohort and spend time with other fellows from past years.
+Let me go through some of the sessions that I have enjoyed the most, but before that, I will point you to a really useful resource on the [NICAR 2015 sessions](http://blog.chryswu.com/2015/02/20/nicar-2015-slides-links-tutorials/) curated by [@MacDiva](https://twitter.com/MacDiva) for you to dive in the session slides that are more aligned with your field of interest.
 
 I can divide the sessions that had more impact on me in two subgroups: technical and management oriented.
 
@@ -56,7 +52,22 @@ In particular I found Christopher's part full of wisdom. Coming from someone tha
 
 ### From text to pictures
 
-![Text Visualization inspiration](/images/nicar2015/TextVizInspiration.png){.post_full width=70%}
+![Text Visualization inspiration](/images/nicar2015/TextPipeline.jpg){.post_right width=50%}
+
+On thursday I had a really good start with a session by [Nicholas Diakopoulos](http://www.nickdiakopoulos.com/) on how to handle and interpret big amounts of text through visualization. [Slides](http://t.co/kfqbTBzjI6)
+
+Nicholas explored different approaches on analizing texts and visualing the content or even the structure to get an insight of what is hidden in that pile of data, after all text is data right?
+
+But Nicholas pointed out that text is data but with a particular behavior, the order in which words appear is important to the meaning of a sentence and you need to take that into account.
+
+He also talked about the necessary text processing pipeline in order to get a useful analysis
+
+*   Initial text
+*   Lowercase
+*   Tokenize
+*   Stem
+*   Stop Word Removal.
+
 
 ### Plot.ly
 
