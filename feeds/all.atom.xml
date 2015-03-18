@@ -1,5 +1,140 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Juan Elosua</title><link href="http://www.juanelosua.com/" rel="alternate"></link><link href="http://www.juanelosua.com/feeds/all.atom.xml" rel="self"></link><id>http://www.juanelosua.com/</id><updated>2014-01-20T13:20:00+01:00</updated><entry><title>2015 Knight-Mozilla fellowship onboarding</title><link href="http://www.juanelosua.com/posts/event/onboarding/" rel="alternate"></link><updated>2014-01-20T13:20:00+01:00</updated><author><name>Juan Elosua</name></author><id>tag:www.juanelosua.com,2014-01-20:posts/event/onboarding/</id><summary type="html">&lt;p&gt;2015 is starting and as a new Knight-Mozilla fellows I joined the rest of the cohort in the onboarding event in Los Angeles. I am very grateful to Dan, Erika, Ryan and Erin (in spirit) for giving us the opportunity to get to know the rest of the fellows in more depth both personally and professionally.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Juan Elosua</title><link href="http://www.juanelosua.com/" rel="alternate"></link><link href="http://www.juanelosua.com/feeds/all.atom.xml" rel="self"></link><id>http://www.juanelosua.com/</id><updated>2015-03-17T13:20:00+01:00</updated><entry><title>2015 Nicar conference</title><link href="http://www.juanelosua.com/posts/event/nicar2015/" rel="alternate"></link><updated>2015-03-17T13:20:00+01:00</updated><author><name>Juan Elosua</name></author><id>tag:www.juanelosua.com,2015-03-17:posts/event/nicar2015/</id><summary type="html">&lt;p&gt;&lt;a href="http://ire.org/conferences/nicar2015/"&gt;Nicar2015&lt;/a&gt; in Atlanta was my first conference as a Knight-Mozilla fellow and it was a fantastic experience. More than 1,000 people from the journalism &amp;amp; desgin &amp;amp; technology fields gather for a intensive stint of 4-5 days with hands-on sessions, panels and demos on tools to innovate in the Computer Assisted Journalism.&lt;/p&gt;
+&lt;p&gt;One of the first things that you realize once you get there is that you are going to have a feeling of missing out no matter how hard you try. There are over 10 simultaneous sessions and unless you can clone yourself (tried that but didn't work...) you need to carefully choose the sessions that you think you can take more profit from.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Atlanta" class="post_left" src="/images/nicar2015/Atlanta.jpg" width="48%" /&gt; &lt;img alt="Nicar" class="post_right" src="/images/nicar2015/NicarEvolution.jpg" width="48%" /&gt; &lt;/p&gt;
+&lt;p&gt;Let me go through some of the sessions that I have enjoyed the most, but before that, I will point you to a really useful resource on the &lt;a href="http://blog.chryswu.com/2015/02/20/nicar-2015-slides-links-tutorials/"&gt;NICAR 2015 sessions&lt;/a&gt; curated by &lt;a href="https://twitter.com/MacDiva"&gt;@MacDiva&lt;/a&gt; for you to dive in the session slides that are more aligned with your field of interest.&lt;/p&gt;
+&lt;p&gt;I can divide the sessions that had more impact on me in two subgroups: technical and management oriented.&lt;/p&gt;
+&lt;div class="clear_float"&gt;&lt;/div&gt;
+
+&lt;hr /&gt;
+&lt;h2 id="management-oriented-sessions"&gt;Management oriented sessions&lt;/h2&gt;
+&lt;h3 id="do-it-once-and-only-once"&gt;Do it once and only once&lt;/h3&gt;
+&lt;p&gt;&lt;img alt="Do It Once" class="post_right" src="/images/nicar2015/DoItOnce.png" width="50%" /&gt; &lt;/p&gt;
+&lt;p&gt;Speakers: &lt;em&gt;&lt;a href="https://twitter.com/derekwillis"&gt;Derek Willis&lt;/a&gt;&lt;/em&gt; &amp;amp; &lt;em&gt;&lt;a href="https://twitter.com/eads"&gt;David Eaves&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Derek and David warned us about the time wasting perils of data processing without automation and audit trails.&lt;/p&gt;
+&lt;p&gt;One of the highlights of the talk to me was finding out about &lt;a href="https://github.com/benbalter/change_agent"&gt;Ben Balter change agent&lt;/a&gt;: A Git-backed key-value store, for tracking changes to documents and other files over time as defined by ben in the repo.&lt;/p&gt;
+&lt;p&gt;I always thought that version control will be applied to other industries outside technology soon and that is going to be a changemaker in that industry.&lt;/p&gt;
+&lt;p&gt;Slides: &lt;em&gt;&lt;a href="http://dwillis.github.io/do-it-once-nicar-2015/"&gt;Derek Slides&lt;/a&gt;&lt;/em&gt; &amp;amp; &lt;em&gt;&lt;a href="http://recoveredfactory.net/cleaner-data-nicar15/"&gt;David Slides&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;h3 id="processes-standards-and-documentation-for-data-driven-projects"&gt;Processes, standards and documentation for data-driven projects&lt;/h3&gt;
+&lt;p&gt;&lt;img alt="Christopher Groskopf" class="post_right" src="/images/nicar2015/ChristopherTip.png" width="50%" /&gt; &lt;/p&gt;
+&lt;p&gt;Speakers: &lt;em&gt;&lt;a href="https://twitter.com/onyxfish"&gt;Christopher Groskopf&lt;/a&gt;&lt;/em&gt; &amp;amp; &lt;em&gt;&lt;a href="https://twitter.com/poverberg"&gt;Paul Overberg&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;In this session Paul and Christopher walked us through the importance of creating team standards, project vocabularies and consistent procedures to produce high quality projects in a sustainable way. This is especially crucial when working under a deadline something that happens naturally in newsrooms.&lt;/p&gt;
+&lt;p&gt;In particular I found Christopher's part full of wisdom. Coming from someone that has worked in newsrooms and remotely for a while and that has taken the time to share his experience in this invaluable &lt;a href="http://recoveredfactory.net/cleaner-data-nicar15/"&gt;tips&lt;/a&gt;.&lt;/p&gt;
+&lt;div class="clear_float"&gt;&lt;/div&gt;
+
+&lt;hr /&gt;
+&lt;h2 id="technical-sessions"&gt;Technical sessions&lt;/h2&gt;
+&lt;h3 id="from-text-to-pictures"&gt;From text to pictures&lt;/h3&gt;
+&lt;p&gt;&lt;img alt="Text Visualization inspiration" class="post_right" src="/images/nicar2015/TextPipeline.jpg" width="50%" /&gt;&lt;/p&gt;
+&lt;p&gt;On thursday I had a really good start with a session by &lt;a href="http://www.nickdiakopoulos.com/"&gt;Nicholas Diakopoulos&lt;/a&gt; on how to handle and interpret big amounts of text through visualization. &lt;a href="http://t.co/kfqbTBzjI6"&gt;Slides&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Nicholas explored different approaches on analizing texts and visualing the content or even the structure to get an insight of what is hidden in that pile of data, after all text is data right?&lt;/p&gt;
+&lt;p&gt;But Nicholas pointed out that text is data but with a particular behavior, the order in which words appear is important to the meaning of a sentence and you need to take that into account.&lt;/p&gt;
+&lt;p&gt;He also talked about the necessary text processing pipeline in order to get a useful analysis&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Initial text&lt;/li&gt;
+&lt;li&gt;Lowercase&lt;/li&gt;
+&lt;li&gt;Tokenize&lt;/li&gt;
+&lt;li&gt;Stem&lt;/li&gt;
+&lt;li&gt;Stop Word Removal.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="plotly"&gt;Plot.ly&lt;/h3&gt;
+&lt;p&gt;&lt;img alt="Plotly" class="post_right" src="/images/nicar2015/plotly.png" width="50%" /&gt; &lt;/p&gt;
+&lt;p&gt;Speakers: &lt;em&gt;&lt;a href="https://www.linkedin.com/pub/matt-sundquist/30/800/752"&gt;Matthew Sundquist&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Until NICAR I had not heard about plot.ly (yeah I know...shame on me!!) and I think that it has a lot of potential in the data journalism field and ranging from journalists that want to create graphs without coding to developers through their &lt;a href="https://plot.ly/api/"&gt;API&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;It generates D3.js visualizations under the hood but it exposes many ways to perform an integration with the platform.&lt;/p&gt;
+&lt;p&gt;To find out more just check their &lt;a href="https://plot.ly/learn/"&gt;tutorials&lt;/a&gt; and &lt;a href="https://plot.ly/api/"&gt;API documentation&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="using-machine-learning-to-deal-with-dirty-data-a-dedupe-demonstration"&gt;Using machine learning to deal with dirty data: a Dedupe demonstration&lt;/h3&gt;
+&lt;p&gt;&lt;img alt="Dedupe" class="post_right" src="/images/nicar2015/Dedupe.png" width="50%" /&gt;&lt;/p&gt;
+&lt;p&gt;Speakers: &lt;em&gt;&lt;a href="https://twitter.com/jeffernsthausen"&gt;Jeff Ernsthausen&lt;/a&gt;&lt;/em&gt;, &lt;em&gt;&lt;a href="https://twitter.com/derekeder"&gt;Derek Eder&lt;/a&gt;&lt;/em&gt;, &lt;em&gt;&lt;a href="https://twitter.com/evanzanten"&gt;Eric van Zanten&lt;/a&gt;&lt;/em&gt; &amp;amp; &lt;a href="https://github.com/fgregg"&gt;Forest Gregg&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;If I had to pick my favorite session from this year's conference I would have to choose the demo on a tool developed by datamade called &lt;a href="https://github.com/datamade/dedupe"&gt;Dedupe&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;It is a machine learning based python library for accurate and scalable data deduplication and entity-resolution. I have fought many times with trying to combine different datasets that do not have a clear identifier to join by. OpenRefine can help with small datasets but the process of clustering is not repeatable and even more important it is not scalable.&lt;/p&gt;
+&lt;p&gt;Having a machine learning process for that kind of task is probably the best way to go. I got so inspired by that demo that I think a big part of my fellowship is going to be focused on machine learning and how to apply it to journalistic problems. &lt;/p&gt;
+&lt;p&gt;&lt;img alt="Dedupe OpenSource" class="post_full" src="/images/nicar2015/Dedupe_OSS.png" width="70%" /&gt;&lt;/p&gt;
+&lt;p&gt;As a starter I am going to use dedupe to try to match two different datasets for the upcoming argentinian elections, in next posts I will tell you how it went and what have I learned in the process.&lt;/p&gt;
+&lt;div class="clear_float"&gt;&lt;/div&gt;
+
+&lt;hr /&gt;
+&lt;h2 id="technical-tip-of-the-day"&gt;Technical tip of the day&lt;/h2&gt;
+&lt;p&gt;Let's dig a little bit deeper on how to install numpy with parallel processing support on a Mac OS X (tested on 10.9 and 10.10) you can read more about the convoluted issue &lt;a href="http://mail.scipy.org/pipermail/numpy-discussion/2012-August/063589.html"&gt;here&lt;/a&gt;. Since it took me a while to get things working for me I thought maybe sharing my pains can help someone in the future.&lt;/p&gt;
+&lt;p&gt;I will walk you through the installation process that has worked for me, if you think it can be improved don't hesitate to contact me.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;If you have not installed homebrew, the first step is to do so:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="nv"&gt;$ &lt;/span&gt;ruby -e &lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;&lt;span class="k"&gt;$(&lt;/span&gt;curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install&lt;span class="k"&gt;)&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Set up some compilation flags on your environment of choice&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="nb"&gt;export &lt;/span&gt;&lt;span class="nv"&gt;CFLAGS&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;-Qunused-arguments 
+&lt;span class="nb"&gt;export &lt;/span&gt;&lt;span class="nv"&gt;CPPFLAGS&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;-Qunused-arguments
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Brew tap the homebrew python repo&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="nv"&gt;$ &lt;/span&gt;brew tap homebrew/python
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Install numpy with OpenBlas support&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="nv"&gt;$ &lt;/span&gt;brew install numpy --with-openblas
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Check if numpy is linked against OpenBlas&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="o"&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;numpy&lt;/span&gt; &lt;span class="kn"&gt;as&lt;/span&gt; &lt;span class="nn"&gt;np&lt;/span&gt;
+&lt;span class="o"&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class="n"&gt;np&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;__config__&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;show&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;You should see an output like this&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="n"&gt;lapack_opt_info&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+    &lt;span class="n"&gt;libraries&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s"&gt;&amp;#39;openblas&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s"&gt;&amp;#39;openblas&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
+    &lt;span class="n"&gt;library_dirs&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s"&gt;&amp;#39;/usr/local/opt/openblas/lib&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
+    &lt;span class="n"&gt;language&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;f77&lt;/span&gt;
+&lt;span class="n"&gt;blas_opt_info&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+    &lt;span class="n"&gt;libraries&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s"&gt;&amp;#39;openblas&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s"&gt;&amp;#39;openblas&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
+    &lt;span class="n"&gt;library_dirs&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s"&gt;&amp;#39;/usr/local/opt/openblas/lib&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
+    &lt;span class="n"&gt;language&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;f77&lt;/span&gt;
+&lt;span class="n"&gt;openblas_info&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+    &lt;span class="n"&gt;libraries&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s"&gt;&amp;#39;openblas&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s"&gt;&amp;#39;openblas&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
+    &lt;span class="n"&gt;library_dirs&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s"&gt;&amp;#39;/usr/local/opt/openblas/lib&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
+    &lt;span class="n"&gt;language&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;f77&lt;/span&gt;
+&lt;span class="n"&gt;openblas_lapack_info&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+    &lt;span class="n"&gt;libraries&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s"&gt;&amp;#39;openblas&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s"&gt;&amp;#39;openblas&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
+    &lt;span class="n"&gt;library_dirs&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s"&gt;&amp;#39;/usr/local/opt/openblas/lib&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
+    &lt;span class="n"&gt;language&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;f77&lt;/span&gt;
+&lt;span class="n"&gt;blas_mkl_info&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+  &lt;span class="n"&gt;NOT&lt;/span&gt; &lt;span class="n"&gt;AVAILABLE&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Now you can continue with the normal installation process for dedupe, just remember to include system packages if you are going to use a virtualenv so that are compiled OpenBlas numpy will be used inside the virtual environment&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="nv"&gt;$ &lt;/span&gt;virtualenv venv --system-site-packages
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class="clear_float"&gt;&lt;/div&gt;
+
+&lt;hr /&gt;
+&lt;h2 id="wrap-up"&gt;Wrap up&lt;/h2&gt;
+&lt;p&gt;This year's NICAR conference in Atlanta was overall a great experience, It has guided me towards machine learning as a focus for my fellowship year. I think this technique will become more and more adopted by newsrooms in the following years.&lt;/p&gt;
+&lt;p&gt;I have met many people with my same interests (is always good not to feel alone... ;-)). I also had the opportunity to get to chat more with the 2015 knight-mozilla fellows cohort and also spend sometime with other fellows from past years.&lt;/p&gt;
+&lt;p&gt;I would recommend anyone interested in the data journalism field to at least attend once to this conference organized by &lt;a href="http://ire.org/about/"&gt;Investigative Reporters &amp;amp; Editors&lt;/a&gt; you will not regret it.&lt;/p&gt;
+&lt;div class="clear_float"&gt;&lt;/div&gt;</summary><category term="opennews"></category></entry><entry><title>2015 Knight-Mozilla fellowship onboarding</title><link href="http://www.juanelosua.com/posts/event/onboarding/" rel="alternate"></link><updated>2015-01-20T13:20:00+01:00</updated><author><name>Juan Elosua</name></author><id>tag:www.juanelosua.com,2015-01-20:posts/event/onboarding/</id><summary type="html">&lt;p&gt;2015 is starting and as a new Knight-Mozilla fellows I joined the rest of the cohort in the onboarding event in Los Angeles. I am very grateful to Dan, Erika, Ryan and Erin (in spirit) for giving us the opportunity to get to know the rest of the fellows in more depth both personally and professionally.&lt;/p&gt;
 &lt;p&gt;This fellowship is one of a kind in the sense that each one of us is going to be headed to a different newsroom so this event was a good opportunity to establish relationships that will be kept during 2015 but mainly through remote channels.&lt;/p&gt;
 &lt;p&gt;In this post I will try to share with you my impressions of the event where we have received tons of information and were able to work together in an open source project started by the &lt;a href="http://www.californiacivicdata.org/"&gt;California Civic Data Coalition&lt;/a&gt; that tries to provide a better understanding of campaign finance in the state of California.&lt;/p&gt;
 &lt;hr /&gt;
