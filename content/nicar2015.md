@@ -56,7 +56,7 @@ In particular, I found Christopher's part full of wisdom. Coming from someone th
 
 Speakers: _[Nicholas Diakopoulos](http://www.nickdiakopoulos.com/)_
 
-On thursday I had a really good start with a session by on how to handle and interpret big amounts of text through visualization by Nicholas Diakopoulos. 
+On thursday I had a really good start with a session on how to handle and interpret big amounts of text through visualization by Nicholas Diakopoulos. 
 
 Nicholas explored different approaches on analizing texts and visualing the content or even the structure to get an insight of what is hidden in that pile of data, after all text is data right?
 
