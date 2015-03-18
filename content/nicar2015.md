@@ -71,7 +71,7 @@ He also talked about the necessary text processing pipeline in order to get a us
 
 ### Plot.ly
 
-![Plotly](/images/nicar2015/plotly.png){.post_right width=50%} 
+![Plotly](/images/nicar2015/Plotly.png){.post_right width=50%} 
 
 Speakers: _[Matthew Sundquist](https://www.linkedin.com/pub/matt-sundquist/30/800/752)_
 
