@@ -4,15 +4,15 @@ Category: event
 Tags: opennews
 Slug: nicar2015
 
-[Nicar2015](http://ire.org/conferences/nicar2015/) in Atlanta was my first conference as a Knight-Mozilla fellow and it was a fantastic experience. More than 1,000 people from the journalism & desgin & technology fields gather for a intensive stint of 4-5 days with hands-on sessions, panels and demos on tools to innovate in the Computer Assisted Journalism.
+[Nicar2015](http://ire.org/conferences/nicar2015/) in Atlanta was my first conference as a Knight-Mozilla fellow and it was a fantastic experience. More than 1,000 people from the journalism & desgin & technology fields gather for an intensive stint of 4-5 days with hands-on sessions, panels and demos on tools to innovate in Computer Assisted Journalism.
 
 One of the first things that you realize once you get there is that you are going to have a feeling of missing out no matter how hard you try. There are over 10 simultaneous sessions and unless you can clone yourself (tried that but didn't work...) you need to carefully choose the sessions that you think you can take more profit from.
 
-![Atlanta](/images/nicar2015/Atlanta.jpg){.post_left width=48%} ![Nicar](/images/nicar2015/NicarEvolution.jpg){.post_right width=48%} 
+![Atlanta](/images/nicar2015/Atlanta.jpg){.post_left_together width=48%} ![Nicar](/images/nicar2015/NicarEvolution.jpg){.post_right_together width=48%}
 
-Let me go through some of the sessions that I have enjoyed the most, but before that, I will point you to a really useful resource on the [NICAR 2015 sessions](http://blog.chryswu.com/2015/02/20/nicar-2015-slides-links-tutorials/) curated by [@MacDiva](https://twitter.com/MacDiva) for you to dive in the session slides that are more aligned with your field of interest.
+Let me go through some of the sessions that I have enjoyed the most, but before that, I will point you to a really useful resource [here](http://blog.chryswu.com/2015/02/20/nicar-2015-slides-links-tutorials/){:target="_blank"} curated by [@MacDiva](https://twitter.com/MacDiva) for you to dive in the session slides that are more aligned with your field of interest.
 
-I can divide the sessions that had more impact on me in two subgroups: technical and management oriented.
+I can divide the sessions that had more impact on me in two subgroups: technical and management oriented. Here are my favorites:
 
 <div class="clear_float"></div> 
 
@@ -28,9 +28,9 @@ Speakers: _[Derek Willis](https://twitter.com/derekwillis)_ & _[David Eaves](htt
 
 Derek and David warned us about the time wasting perils of data processing without automation and audit trails.
 
-One of the highlights of the talk to me was finding out about [Ben Balter change agent](https://github.com/benbalter/change_agent): A Git-backed key-value store, for tracking changes to documents and other files over time as defined by ben in the repo.
+One of the highlights of the talk to me was finding out about [Ben Balter change agent](https://github.com/benbalter/change_agent){:target="_blank"}: A Git-backed key-value store, for tracking changes to documents and other files over time as defined by Ben in the repo.
 
-I always thought that version control will be applied to other industries outside technology soon and that is going to be a changemaker in that industry.
+I always thought that version control will be applied to other industries outside technology soon, and that is going to be a changemaker in that industry.
 
 Slides: _[Derek Slides](http://dwillis.github.io/do-it-once-nicar-2015/)_ & _[David Slides](http://recoveredfactory.net/cleaner-data-nicar15/)_
 
@@ -40,9 +40,9 @@ Slides: _[Derek Slides](http://dwillis.github.io/do-it-once-nicar-2015/)_ & _[Da
 
 Speakers: _[Christopher Groskopf](https://twitter.com/onyxfish)_ & _[Paul Overberg](https://twitter.com/poverberg)_
 
-In this session Paul and Christopher walked us through the importance of creating team standards, project vocabularies and consistent procedures to produce high quality projects in a sustainable way. This is especially crucial when working under a deadline something that happens naturally in newsrooms.
+In this session Paul and Christopher walked us through the importance of creating team standards, project vocabularies and consistent procedures to produce high quality projects in a sustainable way. This is specially crucial when working under a deadline, something that happens naturally in newsrooms.
 
-In particular I found Christopher's part full of wisdom. Coming from someone that has worked in newsrooms and remotely for a while and that has taken the time to share his experience in this invaluable [tips](http://recoveredfactory.net/cleaner-data-nicar15/).
+In particular, I found Christopher's part full of wisdom. Coming from someone that has worked in newsrooms and remotely for a while and that has taken the time to share his experience in this invaluable [tips](http://recoveredfactory.net/cleaner-data-nicar15/){:target="_blank"}.
 
 <div class="clear_float"></div>
 
@@ -54,7 +54,9 @@ In particular I found Christopher's part full of wisdom. Coming from someone tha
 
 ![Text Visualization inspiration](/images/nicar2015/TextPipeline.jpg){.post_right width=50%}
 
-On thursday I had a really good start with a session by [Nicholas Diakopoulos](http://www.nickdiakopoulos.com/) on how to handle and interpret big amounts of text through visualization. [Slides](http://t.co/kfqbTBzjI6)
+Speakers: _[Nicholas Diakopoulos](http://www.nickdiakopoulos.com/)_
+
+On thursday I had a really good start with a session by on how to handle and interpret big amounts of text through visualization by Nicholas Diakopoulos. 
 
 Nicholas explored different approaches on analizing texts and visualing the content or even the structure to get an insight of what is hidden in that pile of data, after all text is data right?
 
@@ -67,6 +69,8 @@ He also talked about the necessary text processing pipeline in order to get a us
 *   Tokenize
 *   Stem
 *   Stop Word Removal.
+
+Slides: _[Nicholas Slides](http://t.co/kfqbTBzjI6)_
 
 
 ### Plot.ly
@@ -93,7 +97,7 @@ It is a machine learning based python library for accurate and scalable data ded
 
 Having a machine learning process for that kind of task is probably the best way to go. I got so inspired by that demo that I think a big part of my fellowship is going to be focused on machine learning and how to apply it to journalistic problems. 
 
-![Dedupe OpenSource](/images/nicar2015/Dedupe_OSS.png){.post_full width=70%}
+[![Dedupe OpenSource](/images/nicar2015/Dedupe_OSS.png){.post_full width=70%}](https://github.com/datamade){:target="_blank"}
 
 As a starter I am going to use dedupe to try to match two different datasets for the upcoming argentinian elections, in next posts I will tell you how it went and what have I learned in the process.
 
@@ -103,7 +107,7 @@ As a starter I am going to use dedupe to try to match two different datasets for
 
 ## Technical tip of the day
 
-Let's dig a little bit deeper on how to install numpy with parallel processing support on a Mac OS X (tested on 10.9 and 10.10) you can read more about the convoluted issue [here](http://mail.scipy.org/pipermail/numpy-discussion/2012-August/063589.html). Since it took me a while to get things working for me I thought maybe sharing my pains can help someone in the future.
+Let's dig a little bit deeper on how to install Numpy with parallel processing support on a Mac OS X (tested on 10.9 and 10.10) you can read more about the convoluted issue [here](http://mail.scipy.org/pipermail/numpy-discussion/2012-August/063589.html). Since it took me a while to get things working so I thought maybe sharing my pains can help someone in the future.
 
 I will walk you through the installation process that has worked for me, if you think it can be improved don't hesitate to contact me.
 
@@ -123,12 +127,12 @@ I will walk you through the installation process that has worked for me, if you 
         :::shell
         $ brew tap homebrew/python
 
-4. Install numpy with OpenBlas support
+4. Install Numpy with OpenBlas support
 
         :::shell
         $ brew install numpy --with-openblas
 
-5. Check if numpy is linked against OpenBlas
+5. Check if Numpy is linked against OpenBlas
 
         :::python
         >>> import numpy as np
@@ -156,7 +160,7 @@ I will walk you through the installation process that has worked for me, if you 
         blas_mkl_info:
           NOT AVAILABLE
 
-7. Now you can continue with the normal installation process for dedupe, just remember to include system packages if you are going to use a virtualenv so that are compiled OpenBlas numpy will be used inside the virtual environment
+7. Now you can continue with the normal installation process for dedupe, just remember to include system packages if you are going to use a virtualenv so that the compiled Numpy with OpenBlas support will be used inside the virtual environment
 
         :::shell
         $ virtualenv venv --system-site-packages
