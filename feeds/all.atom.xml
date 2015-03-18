@@ -27,7 +27,7 @@
 &lt;h3 id="from-text-to-pictures"&gt;From text to pictures&lt;/h3&gt;
 &lt;p&gt;&lt;img alt="Text Visualization inspiration" class="post_right" src="/images/nicar2015/TextPipeline.jpg" width="50%" /&gt;&lt;/p&gt;
 &lt;p&gt;Speakers: &lt;em&gt;&lt;a href="http://www.nickdiakopoulos.com/"&gt;Nicholas Diakopoulos&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;On thursday I had a really good start with a session by on how to handle and interpret big amounts of text through visualization by Nicholas Diakopoulos. &lt;/p&gt;
+&lt;p&gt;On thursday I had a really good start with a session on how to handle and interpret big amounts of text through visualization by Nicholas Diakopoulos. &lt;/p&gt;
 &lt;p&gt;Nicholas explored different approaches on analizing texts and visualing the content or even the structure to get an insight of what is hidden in that pile of data, after all text is data right?&lt;/p&gt;
 &lt;p&gt;But Nicholas pointed out that text is data but with a particular behavior, the order in which words appear is important to the meaning of a sentence and you need to take that into account.&lt;/p&gt;
 &lt;p&gt;He also talked about the necessary text processing pipeline in order to get a useful analysis&lt;/p&gt;
