@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Juan Elosua</title><link>http://www.juanelosua.com/</link><description></description><atom:link href="http://www.juanelosua.com/feeds/all.rss.xml" rel="self"></atom:link><lastBuildDate>Tue, 17 Mar 2015 13:20:00 +0100</lastBuildDate><item><title>2015 Nicar conference</title><link>http://www.juanelosua.com/posts/event/nicar2015/</link><description>&lt;p&gt;&lt;a href="http://ire.org/conferences/nicar2015/"&gt;Nicar2015&lt;/a&gt; in Atlanta was my first conference as a Knight-Mozilla fellow and it was a fantastic experience. More than 1,000 people from the journalism &amp;amp; desgin &amp;amp; technology fields gather for a intensive stint of 4-5 days with hands-on sessions, panels and demos on tools to innovate in the Computer Assisted Journalism.&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Juan Elosua</title><link>http://www.juanelosua.com/</link><description></description><atom:link href="http://www.juanelosua.com/feeds/all.rss.xml" rel="self"></atom:link><lastBuildDate>Tue, 17 Mar 2015 13:20:00 +0100</lastBuildDate><item><title>2015 Nicar conference</title><link>http://www.juanelosua.com/posts/event/nicar2015/</link><description>&lt;p&gt;&lt;a href="http://ire.org/conferences/nicar2015/"&gt;Nicar2015&lt;/a&gt; in Atlanta was my first conference as a Knight-Mozilla fellow and it was a fantastic experience. More than 1,000 people from the journalism &amp;amp; desgin &amp;amp; technology fields gather for an intensive stint of 4-5 days with hands-on sessions, panels and demos on tools to innovate in Computer Assisted Journalism.&lt;/p&gt;
 &lt;p&gt;One of the first things that you realize once you get there is that you are going to have a feeling of missing out no matter how hard you try. There are over 10 simultaneous sessions and unless you can clone yourself (tried that but didn't work...) you need to carefully choose the sessions that you think you can take more profit from.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Atlanta" class="post_left" src="/images/nicar2015/Atlanta.jpg" width="48%" /&gt; &lt;img alt="Nicar" class="post_right" src="/images/nicar2015/NicarEvolution.jpg" width="48%" /&gt; &lt;/p&gt;
-&lt;p&gt;Let me go through some of the sessions that I have enjoyed the most, but before that, I will point you to a really useful resource on the &lt;a href="http://blog.chryswu.com/2015/02/20/nicar-2015-slides-links-tutorials/"&gt;NICAR 2015 sessions&lt;/a&gt; curated by &lt;a href="https://twitter.com/MacDiva"&gt;@MacDiva&lt;/a&gt; for you to dive in the session slides that are more aligned with your field of interest.&lt;/p&gt;
-&lt;p&gt;I can divide the sessions that had more impact on me in two subgroups: technical and management oriented.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Atlanta" class="post_left_together" src="/images/nicar2015/Atlanta.jpg" width="48%" /&gt; &lt;img alt="Nicar" class="post_right_together" src="/images/nicar2015/NicarEvolution.jpg" width="48%" /&gt;&lt;/p&gt;
+&lt;p&gt;Let me go through some of the sessions that I have enjoyed the most, but before that, I will point you to a really useful resource &lt;a href="http://blog.chryswu.com/2015/02/20/nicar-2015-slides-links-tutorials/" target="_blank"&gt;here&lt;/a&gt; curated by &lt;a href="https://twitter.com/MacDiva"&gt;@MacDiva&lt;/a&gt; for you to dive in the session slides that are more aligned with your field of interest.&lt;/p&gt;
+&lt;p&gt;I can divide the sessions that had more impact on me in two subgroups: technical and management oriented. Here are my favorites:&lt;/p&gt;
 &lt;div class="clear_float"&gt;&lt;/div&gt;
 
 &lt;hr /&gt;
@@ -12,21 +12,22 @@
 &lt;p&gt;&lt;img alt="Do It Once" class="post_right" src="/images/nicar2015/DoItOnce.png" width="50%" /&gt; &lt;/p&gt;
 &lt;p&gt;Speakers: &lt;em&gt;&lt;a href="https://twitter.com/derekwillis"&gt;Derek Willis&lt;/a&gt;&lt;/em&gt; &amp;amp; &lt;em&gt;&lt;a href="https://twitter.com/eads"&gt;David Eaves&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;Derek and David warned us about the time wasting perils of data processing without automation and audit trails.&lt;/p&gt;
-&lt;p&gt;One of the highlights of the talk to me was finding out about &lt;a href="https://github.com/benbalter/change_agent"&gt;Ben Balter change agent&lt;/a&gt;: A Git-backed key-value store, for tracking changes to documents and other files over time as defined by ben in the repo.&lt;/p&gt;
-&lt;p&gt;I always thought that version control will be applied to other industries outside technology soon and that is going to be a changemaker in that industry.&lt;/p&gt;
+&lt;p&gt;One of the highlights of the talk to me was finding out about &lt;a href="https://github.com/benbalter/change_agent" target="_blank"&gt;Ben Balter change agent&lt;/a&gt;: A Git-backed key-value store, for tracking changes to documents and other files over time as defined by Ben in the repo.&lt;/p&gt;
+&lt;p&gt;I always thought that version control will be applied to other industries outside technology soon, and that is going to be a changemaker in that industry.&lt;/p&gt;
 &lt;p&gt;Slides: &lt;em&gt;&lt;a href="http://dwillis.github.io/do-it-once-nicar-2015/"&gt;Derek Slides&lt;/a&gt;&lt;/em&gt; &amp;amp; &lt;em&gt;&lt;a href="http://recoveredfactory.net/cleaner-data-nicar15/"&gt;David Slides&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
 &lt;h3 id="processes-standards-and-documentation-for-data-driven-projects"&gt;Processes, standards and documentation for data-driven projects&lt;/h3&gt;
 &lt;p&gt;&lt;img alt="Christopher Groskopf" class="post_right" src="/images/nicar2015/ChristopherTip.png" width="50%" /&gt; &lt;/p&gt;
 &lt;p&gt;Speakers: &lt;em&gt;&lt;a href="https://twitter.com/onyxfish"&gt;Christopher Groskopf&lt;/a&gt;&lt;/em&gt; &amp;amp; &lt;em&gt;&lt;a href="https://twitter.com/poverberg"&gt;Paul Overberg&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;In this session Paul and Christopher walked us through the importance of creating team standards, project vocabularies and consistent procedures to produce high quality projects in a sustainable way. This is especially crucial when working under a deadline something that happens naturally in newsrooms.&lt;/p&gt;
-&lt;p&gt;In particular I found Christopher's part full of wisdom. Coming from someone that has worked in newsrooms and remotely for a while and that has taken the time to share his experience in this invaluable &lt;a href="http://recoveredfactory.net/cleaner-data-nicar15/"&gt;tips&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;In this session Paul and Christopher walked us through the importance of creating team standards, project vocabularies and consistent procedures to produce high quality projects in a sustainable way. This is specially crucial when working under a deadline, something that happens naturally in newsrooms.&lt;/p&gt;
+&lt;p&gt;In particular, I found Christopher's part full of wisdom. Coming from someone that has worked in newsrooms and remotely for a while and that has taken the time to share his experience in this invaluable &lt;a href="http://recoveredfactory.net/cleaner-data-nicar15/" target="_blank"&gt;tips&lt;/a&gt;.&lt;/p&gt;
 &lt;div class="clear_float"&gt;&lt;/div&gt;
 
 &lt;hr /&gt;
 &lt;h2 id="technical-sessions"&gt;Technical sessions&lt;/h2&gt;
 &lt;h3 id="from-text-to-pictures"&gt;From text to pictures&lt;/h3&gt;
 &lt;p&gt;&lt;img alt="Text Visualization inspiration" class="post_right" src="/images/nicar2015/TextPipeline.jpg" width="50%" /&gt;&lt;/p&gt;
-&lt;p&gt;On thursday I had a really good start with a session by &lt;a href="http://www.nickdiakopoulos.com/"&gt;Nicholas Diakopoulos&lt;/a&gt; on how to handle and interpret big amounts of text through visualization. &lt;a href="http://t.co/kfqbTBzjI6"&gt;Slides&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Speakers: &lt;em&gt;&lt;a href="http://www.nickdiakopoulos.com/"&gt;Nicholas Diakopoulos&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;On thursday I had a really good start with a session by on how to handle and interpret big amounts of text through visualization by Nicholas Diakopoulos. &lt;/p&gt;
 &lt;p&gt;Nicholas explored different approaches on analizing texts and visualing the content or even the structure to get an insight of what is hidden in that pile of data, after all text is data right?&lt;/p&gt;
 &lt;p&gt;But Nicholas pointed out that text is data but with a particular behavior, the order in which words appear is important to the meaning of a sentence and you need to take that into account.&lt;/p&gt;
 &lt;p&gt;He also talked about the necessary text processing pipeline in order to get a useful analysis&lt;/p&gt;
@@ -37,6 +38,7 @@
 &lt;li&gt;Stem&lt;/li&gt;
 &lt;li&gt;Stop Word Removal.&lt;/li&gt;
 &lt;/ul&gt;
+&lt;p&gt;Slides: &lt;em&gt;&lt;a href="http://t.co/kfqbTBzjI6"&gt;Nicholas Slides&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
 &lt;h3 id="plotly"&gt;Plot.ly&lt;/h3&gt;
 &lt;p&gt;&lt;img alt="Plotly" class="post_right" src="/images/nicar2015/Plotly.png" width="50%" /&gt; &lt;/p&gt;
 &lt;p&gt;Speakers: &lt;em&gt;&lt;a href="https://www.linkedin.com/pub/matt-sundquist/30/800/752"&gt;Matthew Sundquist&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
@@ -49,13 +51,13 @@
 &lt;p&gt;If I had to pick my favorite session from this year's conference I would have to choose the demo on a tool developed by datamade called &lt;a href="https://github.com/datamade/dedupe"&gt;Dedupe&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;It is a machine learning based python library for accurate and scalable data deduplication and entity-resolution. I have fought many times with trying to combine different datasets that do not have a clear identifier to join by. OpenRefine can help with small datasets but the process of clustering is not repeatable and even more important it is not scalable.&lt;/p&gt;
 &lt;p&gt;Having a machine learning process for that kind of task is probably the best way to go. I got so inspired by that demo that I think a big part of my fellowship is going to be focused on machine learning and how to apply it to journalistic problems. &lt;/p&gt;
-&lt;p&gt;&lt;img alt="Dedupe OpenSource" class="post_full" src="/images/nicar2015/Dedupe_OSS.png" width="70%" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/datamade" target="_blank"&gt;&lt;img alt="Dedupe OpenSource" class="post_full" src="/images/nicar2015/Dedupe_OSS.png" width="70%" /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;As a starter I am going to use dedupe to try to match two different datasets for the upcoming argentinian elections, in next posts I will tell you how it went and what have I learned in the process.&lt;/p&gt;
 &lt;div class="clear_float"&gt;&lt;/div&gt;
 
 &lt;hr /&gt;
 &lt;h2 id="technical-tip-of-the-day"&gt;Technical tip of the day&lt;/h2&gt;
-&lt;p&gt;Let's dig a little bit deeper on how to install numpy with parallel processing support on a Mac OS X (tested on 10.9 and 10.10) you can read more about the convoluted issue &lt;a href="http://mail.scipy.org/pipermail/numpy-discussion/2012-August/063589.html"&gt;here&lt;/a&gt;. Since it took me a while to get things working for me I thought maybe sharing my pains can help someone in the future.&lt;/p&gt;
+&lt;p&gt;Let's dig a little bit deeper on how to install Numpy with parallel processing support on a Mac OS X (tested on 10.9 and 10.10) you can read more about the convoluted issue &lt;a href="http://mail.scipy.org/pipermail/numpy-discussion/2012-August/063589.html"&gt;here&lt;/a&gt;. Since it took me a while to get things working so I thought maybe sharing my pains can help someone in the future.&lt;/p&gt;
 &lt;p&gt;I will walk you through the installation process that has worked for me, if you think it can be improved don't hesitate to contact me.&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;
@@ -81,14 +83,14 @@
 
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Install numpy with OpenBlas support&lt;/p&gt;
+&lt;p&gt;Install Numpy with OpenBlas support&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="nv"&gt;$ &lt;/span&gt;brew install numpy --with-openblas
 &lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Check if numpy is linked against OpenBlas&lt;/p&gt;
+&lt;p&gt;Check if Numpy is linked against OpenBlas&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="o"&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;numpy&lt;/span&gt; &lt;span class="kn"&gt;as&lt;/span&gt; &lt;span class="nn"&gt;np&lt;/span&gt;
 &lt;span class="o"&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class="n"&gt;np&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;__config__&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;show&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
@@ -120,7 +122,7 @@
 
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Now you can continue with the normal installation process for dedupe, just remember to include system packages if you are going to use a virtualenv so that are compiled OpenBlas numpy will be used inside the virtual environment&lt;/p&gt;
+&lt;p&gt;Now you can continue with the normal installation process for dedupe, just remember to include system packages if you are going to use a virtualenv so that the compiled Numpy with OpenBlas support will be used inside the virtual environment&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="nv"&gt;$ &lt;/span&gt;virtualenv venv --system-site-packages
 &lt;/pre&gt;&lt;/div&gt;
 
