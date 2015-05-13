@@ -48,7 +48,7 @@ Finally we were given an endpoint to test the government API by friday 24th at 1
 ***
 
 ## Logging: What the h...  is going on!!! 
-![Postman](/images/2015_paso_caba/log.jpg){.post_left width=48%}As a realtime application (running on EC2 machines) we knew that it was almost as important to have an easy way to keep track of what was going on in the backend on realtime to be able to act quickly in case something unexpected happened.
+![Postman](/images/2015_paso_caba/log.jpg){.post_right width=48%}As a realtime application (running on EC2 machines) we knew that it was almost as important to have an easy way to keep track of what was going on in the backend on realtime to be able to act quickly in case something unexpected happened.
 
 We developed a logging strategy that was published each time the process was run (each minute), making it accessible through HTTP.
 
