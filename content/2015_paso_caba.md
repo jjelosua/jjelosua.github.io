@@ -13,7 +13,7 @@ These were my first elections inside a newsroom and it was thrilling!! It was li
 
 This 2015 will be a year full of elections: Regional PASO elections, Regional final elections and the mother of all... Presidential elections.
 
-![Calendar](/images/2015_paso_caba/calendar.png){.post_left width=48%}In Argentina voting is a compulsory right, so Argentinians will be voting many times during this year. One of the first things that stroke me as a foreigner is that PASO elections are not withheld inside the political party affiliates but rather extended to the whole census. In Spain Primary elections only affect the affiliates and thus are rather overlooked by the overall population. 
+![Calendar](/images/2015_paso_caba/calendar.jpg){.post_left width=48%}In Argentina voting is a compulsory right, so Argentinians will be voting many times during this year. One of the first things that stroke me as a foreigner is that PASO elections are not withheld inside the political party affiliates but rather extended to the whole census. In Spain Primary elections only affect the affiliates and thus are rather overlooked by the overall population. 
 
 I have had some interesting discussions on whether extending Primary elections to the overall population is a good democratic procedure... on one hand it always seems a good idea to let people decide the candidate that they want for their party of choice...but on the other hand having such a low barrier for making the cut for the next round would theoretically allow "big" parties to try to tweak the results of their other contestants by asking their loyal voters to vote for the other party weak candidate...kind of convoluted but possible.
 
@@ -33,7 +33,7 @@ That way we could move forward in defining the final visualizations and the diff
 ***
 
 ## Backend nightmare
-![API](/images/2015_paso_caba/API.png){.post_right width=48%} After being really persuasive with government officials, we ended up having some documentation on the 21st of April... we were going to have an API to query but not many details yet.
+![API](/images/2015_paso_caba/API.jpg){.post_right width=48%} After being really persuasive with government officials, we ended up having some documentation on the 21st of April... we were going to have an API to query but not many details yet.
 
 We started defining the backend structure out of thin air, trying to be modular so that we could be efficient when changes were necessary.
 
@@ -48,7 +48,7 @@ Finally we were given an endpoint to test the government API by friday 24th at 1
 ***
 
 ## Logging: What the h...  is going on!!! 
-![Postman](/images/2015_paso_caba/log.png){.post_left width=48%}As a realtime application (running on EC2 machines) we knew that it was almost as important to have an easy way to keep track of what was going on in the backend on realtime to be able to act quickly in case something unexpected happened.
+![Postman](/images/2015_paso_caba/log.jpg){.post_left width=48%}As a realtime application (running on EC2 machines) we knew that it was almost as important to have an easy way to keep track of what was going on in the backend on realtime to be able to act quickly in case something unexpected happened.
 
 We developed a logging strategy that was published each time the process was run (each minute), making it accessible through HTTP.
 
@@ -147,7 +147,7 @@ After sometime while the API was not responding we were able to get a full respo
 
 We have cleaned up after ourselves and have released the code of the project on github [here](https://github.com/lanacioncom/elecciones_2015_caba)
 
-[![Realtime map](/images/2015_paso_caba/realtime.png){.post_left_together width=48%}](http://www.lanacion.com.ar/1787651-elecciones-2015-resultados-de-las-paso-portenas-en-un-mapa-interactivo){:target="_blank"} [![Realtime ranking](/images/2015_paso_caba/quienesquien.png){.post_right_together width=48%}](http://www.lanacion.com.ar/1787653-en-vivo-como-se-perfilan-los-ganadores-y-perdedores-de-las-paso-portenas){:target="_blank"}
+[![Realtime map](/images/2015_paso_caba/realtime.jpg){.post_left_together width=48%}](http://www.lanacion.com.ar/1787651-elecciones-2015-resultados-de-las-paso-portenas-en-un-mapa-interactivo){:target="_blank"} [![Realtime ranking](/images/2015_paso_caba/quienesquien.jpg){.post_right_together width=48%}](http://www.lanacion.com.ar/1787653-en-vivo-como-se-perfilan-los-ganadores-y-perdedores-de-las-paso-portenas){:target="_blank"}
 
 <div class="clear_float"></div>
 
@@ -161,7 +161,7 @@ Luckily [Manuel Aristarán](http://jazzido.com/) had worked on a similar project
 
 Thanks to that we could delivered a map that showed the results for each polling station the same day we got the official results from the Buenos Aires Government.
 
-[![polling station results](/images/2015_paso_caba/polling_station.png){.post_full width=90%}](http://www.lanacion.com.ar/1788681-como-fueron-los-resultados-de-las-paso-en-la-escuela-donde-votaste){:target="_blank"}
+[![polling station results](/images/2015_paso_caba/polling_station.jpg){.post_full width=90%}](http://www.lanacion.com.ar/1788681-como-fueron-los-resultados-de-las-paso-en-la-escuela-donde-votaste){:target="_blank"}
 
 We used [_cartodb.js_ API](http://docs.cartodb.com/cartodb-platform/cartodb-js.html){:target="_blank"} [_require.js_](http://requirejs.org/){:target="_blank"} in order to keep the javascript development modular. 
 
