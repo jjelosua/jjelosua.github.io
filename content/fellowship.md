@@ -1,5 +1,5 @@
 Title: Fellowship midpoint
-Date: 2015-07-27 13:20
+Date: 2015-08-03 01:00
 Category: fellowship
 Tags: opennews
 Slug: fellowship-midpoint
