@@ -8,7 +8,7 @@ Huge thanks to _pelican team_, _[DandyDev](https://github.com/DandyDev/pelican-b
 
 ## pelican-bootsrap3 Theme
 
-I have change the base pelican-bootsrap3 theme to use a glyphicon as the site logo and removed the author header on the sidebar.
+I have change the base pelican-bootstrap3 theme to use a glyphicon as the site logo and removed the author header on the sidebar.
 
 To do the same just clone my modified repo
 ```    
